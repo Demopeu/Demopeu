@@ -8,4 +8,4 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Demopeu)](https://github.com/Demopeu/TLI.git)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Demopeu)](https://github.com/Demopeu/Demopeu.git)
