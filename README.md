@@ -51,7 +51,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 - **구현 사항:** 각 트랙에서의 완주, PID제어를 활용한 조향시스템 개발, 커브 주행 시스템 개발, 장애물 회피 시스템 개발
 - **성과 / 학습:** 프로젝트 시간관리, 프로젝트 업무 분담, 주행에 필요한 각종 시스템 개발
 - **참고 스크린샷:** 2024.06.16 기준 전국 2등
-<img width="891" alt="KakaoTalk_20240615_142544640" src="https://github.com/Demopeu/Demopeu/assets/156268475/721d69bd-ef10-4236-a654-a28323eb3a90">
+<img width="891" alt="korea.no2" src="https://github.com/Demopeu/Demopeu/assets/156268475/721d69bd-ef10-4236-a654-a28323eb3a90">
 
 ## 🏆 BOJ Profile 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zofhfhguddk)](https://solved.ac/zofhfhguddk)
