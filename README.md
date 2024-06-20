@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FC7323&height=240&section=header&text=Kim%20&DongHyunfontAlign=20&fontAlignY=35&fontSize=40&fontColor=ffffff&desc=Demopeu&descAlign=14&descAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FC7323&height=240&section=header&text=Kim%20DongHyun&fontAlign=20&fontAlignY=35&fontSize=40&fontColor=ffffff" width="100%" />
 
 ## 👋 About Me
 
@@ -19,6 +19,28 @@ Hello, World! 저는 풀스택 개발자를 목표로하는 **김동현**입니�
 
 - **Tools & Platforms:**
   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![ERDCloud](https://img.shields.io/badge/ERDCloud-00A3E0?style=for-the-badge&logo=cloud&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) ![diagrams.net](https://img.shields.io/badge/diagrams.net-F08705?style=for-the-badge&logo=diagrams.net&logoColor=white)
+
+### 🚀 Projects
+
+#### Project 1: 대영 퀴즈쇼
+- **프로젝트 명:** 퀴즈쇼 페이지 제작
+- **기간 / 인원:** 2024.04 ~ 2024.04 (3주), 4명
+- **개요:** Django를 활용한 웹페이지 제작
+- **기술 / 환경:** Python, JavaScript, Django
+- **담당 역할:** JS를 이용한 프론트 구동 부분 및 Django 서버 구축
+- **구현 사항:** OX퀴즈 결과에 따른 각각의 결과 페이지 구현
+- **성과 / 학습:** 백엔드와 프론트 간의 상황 이해 및 갈등 해결
+- **참고 링크:** 
+
+#### Project 2: 영화 추천 프로젝트 - TWM (Travel With Movie)
+- **프로젝트 명:** 영화 추천 페이지 제작
+- **기간 / 인원:** 2024.05 ~ 2024.05 (3주), 2명
+- **개요:** 영화 추천 웹페이지 제작
+- **기술 / 환경:** Vue, Django
+- **담당 역할:** 리더, 서버 구축, 프론트 전반 및 디자인
+- **구현 사항:** 유저의 선택에 따라 다른 영화 추천
+- **성과 / 학습:** 리더의 책임과 업무, 디자인과 프론트의 의견 차이 및 백엔드 간의 상황 이해
+- **참고 링크:** [https://github.com/Demopeu/TWM](https://github.com/Demopeu/TWM)
 
 ## 🏆 BOJ Profile 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zofhfhguddk)](https://solved.ac/zofhfhguddk)
