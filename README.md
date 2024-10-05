@@ -34,6 +34,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
   ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) 
   ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) 
   ![Gradio](https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 - **Tools & Platforms:**
   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
