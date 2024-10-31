@@ -72,7 +72,6 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 
   - **강화 학습 환경 제작:**
     - 강화학습을 위한 시뮬레이션 환경 구축
-    - 실시간 데이터 수집 및 처리 파이프라인 설계
 
   - **핵심 알고리즘 설계:**
     - Soft Actor-Critic (SAC) 알고리즘과 Hindsight Experience Replay (HER) 알고리즘 적용
