@@ -89,6 +89,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
   - 강화학습 모델의 설계 및 최적화 경험 축적
   - 팀 리더로서의 프로젝트 관리 및 팀원 간의 효과적인 커뮤니케이션 능력 향상
 - **참고 링크:**
+  - [AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/SW.md)
   - [프로젝트 기획서](https://www.notion.so/6ff283b4e0324e27a23fe5b721305bcc)
   - [API 명세서](https://www.notion.so/API-f64b46ae482842219462fde2b702f689)
   - [목업](https://www.figma.com/design/SNqRm7PsHwA5R10uP15Voq/%EC%9E%90%EC%9C%A8%EC%A3%BC%EC%B0%A8-%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC?node-id=75-309&t=8n1PO18hJ2bVxxgv-1)
@@ -136,6 +137,8 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
     - 팀 협업을 통한 문제 해결 및 프로젝트 관리 능력 향상.
 
 - **참고 링크:**
+  - [객체 인식 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_YOLOv8_ResNet50_Fashion.md)
+  - [앙상블 기반 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_ensemble_meta_model_image_classification_project.md)
   - [프로젝트 기획서](https://www.notion.so/11862c55ad6b80b2aa7fe51218f6eb92?pvs=4)
 
 ---
