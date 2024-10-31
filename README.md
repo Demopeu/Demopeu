@@ -94,6 +94,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
   - [목업](https://www.figma.com/design/SNqRm7PsHwA5R10uP15Voq/%EC%9E%90%EC%9C%A8%EC%A3%BC%EC%B0%A8-%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC?node-id=75-309&t=8n1PO18hJ2bVxxgv-1)
   - [포팅 메뉴얼](https://humdrum-geranium-104.notion.site/66a2392070744374ba0238d9c6f74f6c)
 
+---
 #### Project: 남성들을 위한 패션 분석 플랫폼 - O-OTd
 
 - **프로젝트명:** O-OTd - 패션 추천 서비스
@@ -137,6 +138,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 - **참고 링크:**
   - [프로젝트 기획서](https://www.notion.so/11862c55ad6b80b2aa7fe51218f6eb92?pvs=4)
 
+---
 #### Project: 버츄얼 아이돌 팬 페이지 제작
 - **프로젝트명:** 버츄얼 아이돌 팬 페이지 제작
 - **기간 / 인원:** 2024.09 ~ 2024.09 (1주), 1명
@@ -147,6 +149,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 - **성과 / 학습:** 서버리스 웹사이트 배포 경험 및 React로 페이지 구현
 - **참고 링크:** [https://akanelize-fansite.kr/](https://akanelize-fansite.kr/)
 
+---
 #### Project: 인물 퀴즈쇼 제작
 - **프로젝트명:** 퀴즈쇼 페이지 제작
 - **기간 / 인원:** 2024.04 ~ 2024.04 (3주), 4명
@@ -157,6 +160,7 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 - **성과 / 학습:** 백엔드와 프론트 간의 상황 이해 및 갈등 해결
 - ~~**참고 링크:** [https://www.ssafy11th-songsam.site/](https://www.ssafy11th-songsam.site/)~~
 
+---
 #### Project: 영화 추천 프로젝트 - TWM (Travel With Movie)
 - **프로젝트명:** 영화 추천 페이지 제작
 - **기간 / 인원:** 2024.05 ~ 2024.05 (3주), 2명
