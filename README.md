@@ -1,29 +1,74 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FC7323&height=240&section=header&text=Kim%20DongHyun&fontAlign=20&fontAlignY=35&fontSize=40&fontColor=ffffff" width="100%" />
+![header](https://capsule-render.vercel.app/api?type=waving&color=black&height=250&text=어우러지는%20코드를%20만드는%20개발자🥗&desc=마치%20오리엔탈%20샐러드처럼&fontColor=d6ace6&fontSize=40&fontAlign=50&fontAlignY=50&descSize=40&descAlign=30&descAlignY=30)
 
-## 👋 About Me
+# 👋 About Me
+**Hello, World!** 저는 신입 개발자 **김동현**입니다.
 
-Hello, World! 저는 프론트엔드 개발자를 목표로 하는 **김동현**입니다. 웹 프론트엔드와 백엔드 모두에 관심이 많으며, 다양한 기술 스택을 활용하여 어떠한 개발 환경에서도 막힘없이 개발하는 것을 목표로 하고 있습니다. 지속적인 학습과 성장을 통해 더 나은 개발자가 되기 위해 노력하고 있습니다.
+ 현재, **프론트엔드**를 중심으로 개발하고 있으며, 머신러닝 기반 **AI 개발**을 취미로 가지고 있습니다.
 
-## 🎓 Education
+팀원들과 소통하며, **팀원들과 자연스럽게 어우러지고**,  
+**디자인과 사용자 경험이 어우러지는 코드 및 결과물**을 만드는 것을 목표로 합니다.  
+
+# 🎓 Education
 
 - **부산대학교 산업공학과 학사**(2016.03~2024.02 ) : 컴퓨터프로그래밍, 데이터베이스, 데이터마이닝, 인공지능응용, 시뮬레이션 과목 수강
-- **삼성 청년 SW 아카데미 11기**(2024.01~2024.12 ) : 기초 프로그래밍, 자료 구조와 알고리즘, 웹 개발, SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득, 공통프로젝트 우수상 수상 등
+- **삼성 청년 SW 아카데미 11기**(2024.01~2024.12 ) : 기초 프로그래밍, 자료 구조와 알고리즘, 웹 개발, SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득, 공통프로젝트 우수상 수상,기업연계 프로젝트 등
 
-## 🏆 Awards
+# 🏆 Awards
 
 - **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상(1등)**  
   - **수상 날짜:** 2024.08.16
   - **내용:** 공통 프로젝트(트랙 :AIot) 공통 프로젝트 우수팀으로 선정
 
-## 👺 Skills
+# 👺 Skills
 
-- **Languages:**
-  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## 1. Language
+
+<div align="left">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="25px">  
+🟥🟥🟥⬜⬜  
+<p style="font-size: 14px;">
+- 알고리즘 문제 풀이 및 AI 개발에 주로 활용<br>
+- Django를 사용한 백엔드 개발 경험 보유<br>
+- PyTorch와 TensorFlow를 활용한 머신러닝 모델 학습 및 파인튜닝(Fine-Tuning) 경험
+</p>
+
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="25px">  
+🟥🟥🟥⬜⬜  
+<p style="font-size: 14px;">
+- 비동기 프로그래밍과 서버 통신 구현 가능<br>  
+- Next.js를 활용한 서버 사이드 렌더링(SSR) 및 검색 엔진 최적화(SEO) 경험<br>  
+- DOM 조작과 이벤트 처리 가능<br>  
+</p>
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" height="25px">  
+🟥🟥🟥🟥⬜  
+<p style="font-size: 14px;">
+- 웹 페이지 구조 설계 및 시맨틱 태그 활용 가능<br>  
+- 웹 접근성과 반응형 디자인을 고려한 마크업 작성 경험<br>  
+</p>
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" height="25px">  
+🟥🟥🟥⬜⬜  
+<p style="font-size: 14px;">
+- Flexbox와 Grid 레이아웃을 활용한 스타일링 및 레이아웃 설계 가능<br>  
+- 애니메이션과 전환 효과를 적용한 경험<br>  
+</p>
+
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" height="25px">  
+🟥🟥⬜⬜⬜  
+<p style="font-size: 14px;">
+- 알고리즘 문제 해결<br> 
+- 삼성 SW 역량 테스트 A+ 취득  
+</p>
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" height="25px">  
+🟥⬜⬜⬜⬜  
+<p style="font-size: 14px;">
+- 타입 정의를 통해 타입 안전성을 보장한 경험<br>  
+- JavaScript 프로젝트에 점진적으로 활용 중  
+</p>
+</div>
 
 - **Frameworks & Libraries:**
   ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
