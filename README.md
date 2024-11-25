@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=black&height=250&text=어우러지는%20코드를%20만드는%20개발자🥗&desc=마치%20오리엔탈%20샐러드처럼&fontColor=d6ace6&fontSize=40&fontAlign=50&fontAlignY=50&descSize=40&descAlign=30&descAlignY=30&width="100%")
+![header](https://capsule-render.vercel.app/api?type=waving&color=black&height=250&text=어우러지는%20코드를%20만드는%20개발자🥗&desc=마치%20오리엔탈%20샐러드처럼&fontColor=d6ace6&fontSize=40&fontAlign=50&fontAlignY=50&descSize=40&descAlign=30&descAlignY=30&width="100")
 
 # 👋 About Me
 **Hello, World!** 저는 신입 개발자 **김동현**입니다.
