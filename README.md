@@ -2,7 +2,7 @@
 
 ## 👋 About Me
 
-Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니다. 웹 프론트엔드와 백엔드 모두에 관심이 많으며, 다양한 기술 스택을 활용하여 어떠한 개발 환경에서도 막힘없이 개발하는 것을 목표로 하고 있습니다. 지속적인 학습과 성장을 통해 더 나은 개발자가 되기 위해 노력하고 있습니다.
+Hello, World! 저는 프론트엔드 개발자를 목표로 하는 **김동현**입니다. 웹 프론트엔드와 백엔드 모두에 관심이 많으며, 다양한 기술 스택을 활용하여 어떠한 개발 환경에서도 막힘없이 개발하는 것을 목표로 하고 있습니다. 지속적인 학습과 성장을 통해 더 나은 개발자가 되기 위해 노력하고 있습니다.
 
 ## 🎓 Education
 
@@ -27,7 +27,6 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
 
 - **Frameworks & Libraries:**
   ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
-  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
   ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
   ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D)
   ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) 
@@ -47,7 +46,6 @@ Hello, World! 저는 풀스택 개발자를 목표로 하는 **김동현**입니
   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
   ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
   ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-  ![ERDCloud](https://img.shields.io/badge/ERDCloud-00A3E0?style=for-the-badge&logo=cloud&logoColor=white)
   ![Visual Studio Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
   ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
   ![diagrams.net](https://img.shields.io/badge/diagrams.net-F08705?style=for-the-badge&logo=diagrams.net&logoColor=white)
