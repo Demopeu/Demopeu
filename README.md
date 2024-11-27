@@ -200,11 +200,11 @@
 - **프로젝트명:** 버츄얼 아이돌 팬 페이지 제작
 - **기간 / 인원:** 2024.09 ~ 2024.09 (1주), 1명
  - **개요:** React와 Firebase를 이용한 웹페이지 제작
-[//]: # - **기술 / 환경:** React, Firebase
-[//]: # - **담당 역할:** 개인 프로젝트로, React를 이용한 FE 제작 및 Firebase를 활용한 배포
-[//]: # - **구현 사항:** 유튜브 링크와 연동한 다시보기 사이트 제작 및 서버리스로 제작하기 위해 Firebase 사용
-[//]: # - **성과 / 학습:** 서버리스 웹사이트 배포 경험 및 React로 페이지 구현
-[//]: # - **참고 링크:** [https://akanelize-fansite.kr/](https://akanelize-fansite.kr/)
+ - **기술 / 환경:** React, Firebase
+ - **담당 역할:** 개인 프로젝트로, React를 이용한 FE 제작 및 Firebase를 활용한 배포
+ - **구현 사항:** 유튜브 링크와 연동한 다시보기 사이트 제작 및 서버리스로 제작하기 위해 Firebase 사용
+ - **성과 / 학습:** 서버리스 웹사이트 배포 경험 및 React로 페이지 구현
+ - **참고 링크:** [https://akanelize-fansite.kr/](https://akanelize-fansite.kr/)
 
 ---
 #### Project: 영화 추천 프로젝트 - TWM (Travel With Movie)
