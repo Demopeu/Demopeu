@@ -22,7 +22,7 @@
 # 👺 Skills
 
 <details>
-  <summary style="font-size: 1.3em; margin-bottom: 10px;"><strong>Language</strong></summary>
+  <summary style="font-size: 1.4em; margin-bottom: 10px;"><strong>Language</strong></summary>
 
   <div style="margin-bottom: 15px;">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="25px"> 🟥🟥🟥⬜⬜  
@@ -77,7 +77,7 @@
 </details>
 
 <details>
-  <summary style="font-size: 1.3em; margin-bottom: 10px;"><strong>Frameworks & Libraries</strong></summary>
+  <summary style="font-size: 1.4em; margin-bottom: 10px;"><strong>Frameworks & Libraries</strong></summary>
 
   <div style="margin-bottom: 15px;">
     <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="Node.js" height="25px"> 🟥🟥🟥⬜⬜  
@@ -141,7 +141,7 @@
 </details>
 
 <details>
-  <summary style="font-size: 1.3em; margin-bottom: 10px;"><strong>AI & Machine Learning</strong></summary>
+  <summary style="font-size: 1.4em; margin-bottom: 10px;"><strong>AI & Machine Learning</strong></summary>
 
   <div style="margin-bottom: 15px;">
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" height="25px"> 🟥🟥🟥⬜⬜  
@@ -195,7 +195,7 @@
 </details>
 
 <details>
-  <summary style="font-size: 1.3em; margin-bottom: 10px;"><strong>Tools & Platforms</strong></summary>
+  <summary style="font-size: 1.4em; margin-bottom: 10px;"><strong>Tools & Platforms</strong></summary>
 
   <div style="margin-bottom: 15px;">
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" height="25px"> 🟥🟥🟥🟥⬜  
@@ -388,3 +388,4 @@
 - **Gmail:** dnanf12345@gmail.com
 - **Phone Number:** 010-7139-9186
 - **GitHub:** [https://github.com/Demopeu](https://github.com/Demopeu)
+- **velog:** [https://velog.io/@demopeu/posts](https://velog.io/@demopeu/posts)
