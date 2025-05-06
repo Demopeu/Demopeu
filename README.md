@@ -35,6 +35,7 @@
 | ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white)<br>![Pinia](https://img.shields.io/badge/Pinia-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) | Zustand로 전역 상태 관리 구축. <br>Pinia 전역 상태 관리 경험. |
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)<br>![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | Tailwind 유틸리티 퍼스트 방식으로 빠른 UI 제작. <br>미디어쿼리, hover/focus/active 상태 클래스로 반응형·인터랙티브 UI 구현. <br>Bootstrap UI 구현 경험. |
 | ![shadcn UI](https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black)<br>![lucide-react](https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white) | shadcn UI, lucide-react로 커스터마이징 디자인 시스템·아이콘 시스템 구축. |
+| ![Phaser 3](https://img.shields.io/badge/Phaser%203-2E3A59?style=for-the-badge&logo=phaser&logoColor=white) | Phaser 3로 2D 게임 로직과 씬 전환, 입력 처리 구현 진행 중. |
 | ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D) | Vue Router로 라우팅 구현 경험. |
 
 <details open>
@@ -65,6 +66,7 @@
 | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | Django로 백엔드 API 서버·RESTful API 개발. <br>사용자 인증·권한 관리 구현. <br>템플릿 시스템으로 동적 웹 페이지 생성 경험. |
 | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)<br>![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) | C++로 알고리즘 문제 풀이·기본 자료구조·알고리즘 구현. <br>Java 기본 문법·객체지향 개념 이해·간단 코드 작성. |
 | ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) | Visual Studio 통합 디버깅·테스트 도구 활용. |
+| ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white) | Electron으로 Windows 데스크탑 배포 버전 제작·빌드 경험 중. |
 
 </details>
 
@@ -216,7 +218,7 @@
 ---
 
 <details>
-  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>프로젝트: 버츄얼 아이돌 팬 페이지 제작</strong></summary>
+  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌프로젝트: 버츄얼 아이돌 팬 페이지 제작</strong></summary>
 
 ## 📌 프로젝트: 버츄얼 아이돌 팬 페이지 제작
 
@@ -269,7 +271,7 @@
 ---
 
 <details>
-   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>영화 추천 서비스 - TWM(Travel With Movies)</strong></summary>
+   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 영화 추천 서비스 - TWM(Travel With Movies)</strong></summary>
 
 ## 📌 프로젝트: 영화 추천 서비스 - TWM(Travel With Movies)
 
@@ -334,7 +336,7 @@
 # ⭐ Other Projects Portfolio
 
 <details>
-  <summary><strong>자율 주행 보드를 활용한 무인 주차 서비스 - MVP (Management for Valet Parking)</strong></summary>
+  <summary><strong>📌 자율 주행 보드를 활용한 무인 주차 서비스 - MVP (Management for Valet Parking)</strong></summary>
   
 - **프로젝트명:** 자율 주행 보드를 활용한 무인 주차 서비스
 - **기간 / 인원:** 2024.07.08 ~ 2024.08.16 (6주), 6명
@@ -381,7 +383,7 @@
 </details>
 
 <details>
-  <summary><strong>남성들을 위한 패션 분석 플랫폼 - O-OTd</strong></summary>
+  <summary><strong>📌 남성들을 위한 패션 분석 플랫폼 - O-OTd</strong></summary>
   
 - **프로젝트명:** O-OTd - 패션 추천 서비스
 - **기간 / 인원:** 2024.07.08 ~ 2024.08.16 (6주), 6명
@@ -431,7 +433,7 @@
 </details>
 
 <details>
-  <summary><strong>인물 퀴즈쇼 제작</strong></summary>
+  <summary><strong>📌 인물 퀴즈쇼 제작</strong></summary>
   
 - **프로젝트명:** 퀴즈쇼 페이지 제작
 - **기간 / 인원:** 2024.04 ~ 2024.04 (3주), 4명
