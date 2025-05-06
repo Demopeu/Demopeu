@@ -20,198 +20,49 @@
 - **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상(1등)**
   - **수상 날짜:** 2024.08.16
   - **내용:** 공통 프로젝트(트랙 :AIot) 공통 프로젝트 우수팀으로 선정
-
-# 👺 Skills
+ 
+# 🛠️ Skills
 
 ## Frontend
 
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" height="25px">
-<ul>
-  <li>시맨틱 마크업 작성과 웹 표준 준수를 위해 노력합니다.</li>
-  <li>SEO 최적화를 위해 메타태그, 시맨틱 태그를 적용했습니다.</li>
-  <li>HTML5의 다양한 input type과 form 요소를 사용해 폼 액션을 구현한 경험이 있습니다.</li>
-</ul>
-</div>
+| 기술 | 설명 |
+|:---:|:---|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | 시맨틱 마크업 작성과 웹 표준 준수를 위해 노력합니다.<br>SEO 최적화를 위해 메타태그, 시맨틱 태그를 적용했습니다.<br>HTML5의 다양한 input type과 form 요소를 사용해 폼 액션을 구현한 경험이 있습니다. |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | CSS Flexbox와 Grid를 사용해 반응형 웹을 제작했습니다.<br>:has()와 :required 등의 의사 클래스 선택자를 사용해 JavaScript 없이 상태 기반 스타일을 제어했습니다. |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) <br> ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ES6 이상의 문법과 함수형 프로그래밍 개념을 프로젝트에 적용해보며 더 나은 코드를 작성하려 노력했습니다.<br><a href="https://ko.javascript.info/">모던 JavaScript</a>를 참고하며 자바스크립트의 기본 원칙과 동작 방식을 이해하고 지키려 노력하고 있습니다.<br>TypeScript의 정적 타입 시스템, 타입 추론, 인터페이스 등을 사용하며 타입 안전성을 지키려고 노력하고 있습니다. |
+| ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | React 18과 19 버전으로 프로젝트를 진행한 경험이 있습니다.<br>React Hooks를 활용해 상태 관리와 로직 분리를 시도하며 새로운 훅을 배우고 적용하는 것을 즐깁니다.<br>메모라이제이션을 통해 렌더링 최적화를 위해 노력하고 있습니다.<br>Context.Provider를 활용한 상태 관리를 진행한 경험이 있습니다.<br>Lighthouse를 활용해 웹 성능 점검과 개선 작업을 진행했습니다. |
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | Next.js 14와 15를 활용하여 SSR과 CSR을 병행한 프로젝트를 개발했습니다.<br>페이지 라우터의 효율성과 <code>layout</code>, <code>page</code> 디렉토리 구조를 이해하고 적용했습니다.<br>SEO 최적화를 위한 코드 최적화를 적용합니다.<br>Next.js 15의 새로운 비동기 요청 API와 변경된 캐싱 전략을 적용해 개발했습니다.<br>서버 액션과 간소화된 서버 렌더링/캐싱 모델을 프로젝트에 적용해 서버 사이드 로직과 데이터 관리를 개선했습니다. |
+| ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white) <br> ![Pinia](https://img.shields.io/badge/Pinia-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) | Zustand로 전역 상태 관리를 구축하여 컴포넌트 간 상태 공유를 효율화했습니다.<br>Pinia를 사용해 전역 상태 관리를 구현한 경험이 있습니다. |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) <br> ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | Tailwind CSS의 유틸리티 퍼스트 방식을 이해하고 능숙하게 사용하며 빠른 UI 개발을 수행했습니다.<br>미디어 쿼리와 hover, focus, active 상태 클래스를 활용해 반응형 및 인터랙티브 UI를 제작했습니다.<br>Bootstrap을 사용해 UI를 구현한 경험이 있습니다. |
+| ![shadcn UI](https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black) <br> ![lucide-react](https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white) | shadcn UI와 lucide-react를 활용해 커스터마이징된 디자인 시스템과 아이콘 시스템을 구축하여 효율적인 웹 퍼블리싱을 구현했습니다. |
+| ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D) | Vue Router를 사용해 라우팅을 구현해본 경험이 있습니다. |
 
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" height="25px">
-<ul>
-  <li>CSS Flexbox와 Grid를 사용해 반응형 웹을 제작했습니다.</li>
-   <li>:has()와 :required 등의 의사 클래스 선택자를 사용해 JavaScript 없이 상태 기반 스타일을 제어했습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="25px">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" height="25px">
-<ul>
-<li>ES6 이상의 문법과 함수형 프로그래밍 개념을 프로젝트에 적용해보며 더 나은 코드를 작성하려 노력했습니다.</li>
-  <li><a href="https://ko.javascript.info/">모던 JavaScript</a>를 참고하며 자바스크립트의 기본 원칙과 동작 방식을 이해하고 지키려 노력하고 있습니다.</li>
-  <li>TypeScript의 정적 타입 시스템, 타입 추론, 인터페이스 등을 사용하며 타입 안전성을 지키려고 노력하고 있습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" height="25px">
-<ul>
-  <li>React 18과 19 버전으로 프로젝트를 진행한 경험이 있습니다.</li>
-  <li>React Hooks를 활용해 상태 관리와 로직 분리를 시도하며 새로운 훅을 배우고 적용하는 것을 즐깁니다.</li>
-  <li>메모라이제이션을 통해 렌더링 최적화를 위해 노력하고 있습니다.</li>
-  <li>Context.Provider를 활용한 상태 관리를 진행한 경험이 있습니다.</li>
-  <li>Lighthouse를 활용해 웹 성능 점검과 개선 작업을 진행했습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" height="25px">
-<ul>
-  <li>Next.js 14와 15를 활용하여 SSR과 CSR을 병행한 프로젝트를 개발했습니다.</li>
-  <li>페이지 라우터의 효율성과 <code>layout</code>, <code>page</code> 디렉토리 구조를 이해하고 적용했습니다.</li>
-  <li>SEO 최적화를 위한 코드 최적화를 적용합니다.</li>
-  <li>Next.js 15의 새로운 비동기 요청 API와 변경된 캐싱 전략을 적용해 개발했습니다.</li>
-   <li>서버 액션과 간소화된 서버 렌더링/캐싱 모델을 프로젝트에 적용해 서버 사이드 로직과 데이터 관리를 개선했습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white" alt="Zustand" height="25px">
-<img src="https://img.shields.io/badge/Pinia-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Pinia" height="25px">
-
-<ul>
-  <li>Zustand로 전역 상태 관리를 구축하여 컴포넌트 간 상태 공유를 효율화했습니다.</li>
-  <li>Pinia를 사용해 전역 상태 관리를 구현한 경험이 있습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="25px">
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" height="25px">
-<ul>
-  <li>Tailwind CSS의 유틸리티 퍼스트 방식을 이해하고 능숙하게 사용하며 빠른 UI 개발을 수행했습니다.</li>
-  <li>미디어 쿼리와 hover, focus, active 상태 클래스를 활용해 반응형 및 인터랙티브 UI를 제작했습니다.</li>
-  <li>Bootstrap을 사용해 UI를 구현한 경험이 있습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black" alt="shadcn UI" height="25px">
-<img src="https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white" alt="lucide-react" height="25px">
-<ul>
-  <li>shadcn UI와 lucide-react를 활용해 커스터마이징된 디자인 시스템과 아이콘 시스템을 구축하여 효율적인 웹 퍼블리싱을 구현했습니다.</li>
-</ul>
-</div>
-
-<div style="margin-bottom: 10px;">
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D" alt="Vue.js" height="25px">
-<ul>
-  <li>Vue Router를 사용해 라우팅을 구현해본 경험이 있습니다.</li>
-</ul>
-</div>
-
-## AI & Machine Learning
-
-<details>
+<details open>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>AI & Machine Learning</strong></summary>
 
-  <div style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="25px">
-    <ul>
-      <li>알고리즘 문제 풀이 및 AI 개발에 Python을 활용했습니다.</li>
-      <li>Django를 사용한 백엔드 개발 경험이 있습니다.</li>
-      <li>PyTorch와 TensorFlow로 머신러닝 모델 학습 및 파인튜닝을 경험했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" height="25px">
-    <ul>
-      <li>PyTorch로 패션 추천 프로젝트의 딥러닝 모델을 개발하고 파인튜닝했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" height="25px">
-    <ul>
-      <li>TensorFlow로 신경망 기반 분류 모델을 구축하고 학습했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" height="25px">
-    <ul>
-      <li>AI 모델 서빙을 위한 API를 FastAPI로 개발한 경험이 있습니다.</li>
-      <li>FastAPI를 활용해 효율적인 API 서버를 구축했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" height="25px">
-    <ul>
-      <li>데이터 전처리 및 분석에 Pandas를 활용했습니다.</li>
-      <li>대용량 데이터셋 처리와 변환을 수행했습니다.</li>
-      <li>데이터 시각화를 시도했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" height="25px">
-    <ul>
-      <li>NumPy로 고성능 수치 계산과 배열 조작을 수행했습니다.</li>
-      <li>수학적 모델링과 간단한 시뮬레이션 작업을 진행했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" height="25px">
-    <ul>
-      <li>컴퓨터 비전 프로젝트에서 OpenCV를 활용해 이미지 전처리와 분석을 경험했습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio" height="25px">
-    <ul>
-      <li>Gradio로 AI 모델의 웹 인터페이스를 구축했습니다.</li>
-    </ul>
-  </div>
+| 기술 | 설명 |
+|:---:|:---|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | 알고리즘 문제 풀이 및 AI 개발에 Python을 활용했습니다.<br>Django를 사용한 백엔드 개발 경험이 있습니다.<br>PyTorch와 TensorFlow로 머신러닝 모델 학습 및 파인튜닝을 경험했습니다. |
+| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | PyTorch로 패션 추천 프로젝트의 딥러닝 모델을 개발하고 파인튜닝했습니다. |
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | TensorFlow로 신경망 기반 분류 모델을 구축하고 학습했습니다. |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | AI 모델 서빙을 위한 API를 FastAPI로 개발한 경험이 있습니다.<br>FastAPI를 활용해 효율적인 API 서버를 구축했습니다. |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | 데이터 전처리 및 분석에 Pandas를 활용했습니다.<br>대용량 데이터셋 처리와 변환을 수행했습니다.<br>데이터 시각화를 시도했습니다. |
+| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) | NumPy로 고성능 수치 계산과 배열 조작을 수행했습니다.<br>수학적 모델링과 간단한 시뮬레이션 작업을 진행했습니다. |
+| ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) | 컴퓨터 비전 프로젝트에서 OpenCV를 활용해 이미지 전처리와 분석을 경험했습니다. |
+| ![Gradio](https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white) | Gradio로 AI 모델의 웹 인터페이스를 구축했습니다. |
 
 </details>
 
-## Etc.
-
-<details>
+<details open>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>Etc.</strong></summary>
 
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" height="25px">
-    <ul>
-      <li>Django로 백엔드 API 서버를 구축하고 RESTful API를 개발했습니다.</li>
-      <li>사용자 인증 및 권한 관리 구현을 개발했습니다.</li>
-      <li>템플릿 시스템을 활용한 동적 웹 페이지 생성한 적이 있습니다.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" height="25px">
-    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" height="25px">
-    <ul>
-      <li>알고리즘 문제 풀이에 C++을 사용해 기본적인 자료구조와 알고리즘 구현을 연습했습니다.</li>
-      <li>Java의 기본 문법과 객체지향 프로그래밍 개념을 이해하고 간단한 코드 작성이 가능합니다.</li>
-    </ul>
-</div>
-
-  <div style="margin-bottom: 10px;">
-    <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio" height="25px">
-    <ul>
-      <li>Visual Studio의 통합 디버깅 및 테스트 도구를 활용했습니다.</li>
-    </ul>
-  </div>
+| 기술 | 설명 |
+|:---:|:---|
+| ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | Django로 백엔드 API 서버를 구축하고 RESTful API를 개발했습니다.<br>사용자 인증 및 권한 관리 구현을 개발했습니다.<br>템플릿 시스템을 활용한 동적 웹 페이지 생성한 적이 있습니다. |
+| ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)<br>![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) | 알고리즘 문제 풀이에 C++을 사용해 기본적인 자료구조와 알고리즘 구현을 연습했습니다.<br>Java의 기본 문법과 객체지향 프로그래밍 개념을 이해하고 간단한 코드 작성이 가능합니다. |
+| ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) | Visual Studio의 통합 디버깅 및 테스트 도구를 활용했습니다. |
 
 </details>
-
----
-
 # 🚀 Frontend Portfolio
 
 ## 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
@@ -636,9 +487,7 @@
 - **성과 / 학습:** 백엔드와 프론트 간의 상황 이해 및 갈등 해결
 - ~~**참고 링크:** [https://www.ssafy11th-songsam.site/](https://www.ssafy11th-songsam.site/)~~
 
-<details>
-
----
+</details>
 
 # 🏆 BOJ Profile
 
@@ -655,3 +504,4 @@
 - **Phone Number:** 010-7139-9186
 - **GitHub:** [https://github.com/Demopeu](https://github.com/Demopeu)
 - **velog:** [https://velog.io/@demopeu/posts](https://velog.io/@demopeu/posts)
+- **GitHub blog:** [https://demopeu.github.io/](https://demopeu.github.io/)
