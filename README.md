@@ -37,8 +37,6 @@
 | ![shadcn UI](https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black)<br>![lucide-react](https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white) | shadcn UI, lucide-react로 커스터마이징 디자인 시스템·아이콘 시스템 구축. |
 | ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D) | Vue Router로 라우팅 구현 경험. |
 
----
-
 <details open>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>AI & Machine Learning</strong></summary>
 
@@ -57,8 +55,6 @@
 
 </details>
 
----
-
 <details open>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>Etc.</strong></summary>
 
@@ -71,7 +67,6 @@
 | ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) | Visual Studio 통합 디버깅·테스트 도구 활용. |
 
 </details>
-
 
 # ⭐ Frontend Portfolio
 
