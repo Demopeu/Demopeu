@@ -63,6 +63,7 @@
 | ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) | Visual Studio의 통합 디버깅 및 테스트 도구를 활용했습니다. |
 
 </details>
+
 # 🚀 Frontend Portfolio
 
 ## 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
