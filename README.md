@@ -450,7 +450,7 @@
   - LLM을 활용한 코드 리뷰 자동화 로직 설계 및 적용  
   - 실사용 워크플로우에 AI 리뷰 기능을 통합하는 시스템 구축 역량 향상
 - **참고 링크:**
-- [IMS (I’m Solo)](https://github.com/Demopeu/IMS)
+  - [IMS (I’m Solo)](https://github.com/Demopeu/IMS)
 
 </details>
 
