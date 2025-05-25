@@ -434,9 +434,7 @@
 
 <details>
   <summary><strong>📌 AI 기반 코드 리뷰 시스템 IMS 개발</strong></summary>
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/aa786d89-1540-470d-a330-51112eeb7578" width="100"/>
-</p>
+  
 - **프로젝트명:** IMS (I’m Solo)
 - **기간 / 인원:** 2025.05.23 ~ 2025.05.25 (2일), 1명
 - **개요:** GitHub Pull Request(PR)에 자동으로 시맨틱 리뷰를 생성하여 댓글로 남기는 AI 코드 리뷰 시스템 개발
