@@ -35,14 +35,27 @@
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | CSS Flexbox와 Grid로 반응형 제작. <br>:has(), :required 의사 클래스 선택자로 JS 없이 상태 기반 스타일 제어. |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ES6+ 함수형 프로그래밍 적용. <br><a href="https://ko.javascript.info/">모던 JavaScript</a> 참고해 기본 원칙·동작 방식 이해·적용. <br>TypeScript 정적 타입 시스템, 타입 추론, 인터페이스로 타입 안전성 확보. |
 | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | React 18/19 프로젝트 경험. <br>Hooks로 상태 관리·로직 분리 시도. <br>메모라이제이션으로 렌더링 최적화. <br>Context.Provider로 상태 관리 경험. <br>Lighthouse로 성능 점검·개선. |
-| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | Next.js 14/15로 SSR·CSR 병행 개발. <br>App router 구조 이해·적용. <br>SEO 코드 최적화. <br>Next.js 15 비동기 요청 API·캐싱 전략 적용. <br>서버 액션·캐싱 모델로 서버 로직·데이터 관리 개선.<br>next/bundle-analyzer로 번들 사이즈 시각화 및 코드 스플리팅 적용 <br>AWS S3 Presigned URL로 직접 이미지 업로드 구현. <br>next-pwa 설정을 통한 Firebase Cloud Messaging 기반 푸시 알림 구성. <br>HLS.js 연동으로 실시간 라이브 스트리밍 시청 기능 구현. <br>Toss Payments SDK 연동으로 결제 시스템 구축. <br>not-found.tsx 및 error.tsx로 라우팅 기반 예외 처리 구성. <br>WebSocket 연결로 실시간 데이터 스트림 처리 경험. <br>SSE(Server-Sent Events)로 실시간 알림 및 DM 메시지 수신 기능 구현.<br>Parallel Routes로 모달·탭·다중 레이아웃 분기 구현.|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) |
+- **SSR·CSR 병행 개발**: Next.js 14/15 기반 SSR·CSR 병행 구성
+- **App Router**: App router 디렉토리 구조 이해 및 적용
+- **SEO 최적화**: 메타태그, Head 구성 등 SEO 요소 최적화
+- **비동기 API 요청**: Next.js 15의 fetch API 및 캐싱 전략 적용
+- **서버 액션**: 서버 액션과 캐싱 모델로 데이터 로직 구성
+- **번들 분석**: next/bundle-analyzer로 번들 시각화 및 코드 분할
+- **파일 업로드**: S3 Presigned URL로 이미지 업로드 직접 구현
+- **푸시 알림**: next-pwa + Firebase Cloud Messaging으로 푸시 알림 처리
+- **라이브 스트리밍**: HLS.js로 실시간 방송 시청 기능 구현
+- **결제 시스템**: Toss Payments SDK 연동으로 결제 기능 구축
+- **예외 처리**: not-found.tsx, error.tsx로 라우팅 기반 에러 처리
+- **실시간 통신**: WebSocket으로 실시간 데이터 처리, SSE로 알림/DM 수신
+- **UI 분기 처리**: Parallel Routes로 모달·탭·다중 레이아웃 구성|
 | ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logoColor=white) | TanStack Query로 서버 상태 관리 및 캐싱 시스템 구축. <br>자동 재요청·데이터 갱신 로직 구성. <br>staleTime 기준 유효성 판단·중복 요청 방지. <br>React Query DevTools로 실시간 상태 디버깅 및 강제 리패치 구현. |
 | ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white)<br>![Pinia](https://img.shields.io/badge/Pinia-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) | Zustand로 전역 상태 관리 구축. <br>Pinia 전역 상태 관리 경험. |
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)<br>![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | Tailwind 유틸리티 퍼스트 방식으로 빠른 UI 제작. <br>미디어쿼리, hover/focus/active 상태 클래스로 반응형·인터랙티브 UI 구현. <br>Bootstrap UI 구현 경험. |
 | ![shadcn UI](https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black)<br>![lucide-react](https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white) | shadcn UI, lucide-react로 커스터마이징 디자인 시스템·아이콘 시스템 구축. |
-| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | Turborepo로 모노레포 구조 구축. <br>Next.js 기반 3개의 앱 분리 구성. <br>공통 설정·UI 컴포넌트 모듈화. <br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
+| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | 모노레포 구조 구축. <br>Next.js 기반 3개의 앱 분리 구성. <br>공통 설정·UI 컴포넌트 모듈화. <br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
 | ![Phaser 3](https://img.shields.io/badge/Phaser%203-2E3A59?style=for-the-badge&logo=phaser&logoColor=white) | Phaser 3로 2D 게임 로직과 씬 전환, 입력 처리 구현 진행 중. |
-| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-EF0185?style=for-the-badge&logo=framer&logoColor=white) | Framer Motion으로 페이지 전환 애니메이션, UI 요소 인터랙션 구현. <br>조건부 렌더링 시 애니메이션 자연스럽게 연결해 사용자 경험 향상. |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-EF0185?style=for-the-badge&logo=framer&logoColor=white) | 페이지 전환 애니메이션, UI 요소 인터랙션 구현.|
 | ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D) | Vue Router로 라우팅 구현 경험. |
 
 <details open>
