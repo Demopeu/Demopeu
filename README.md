@@ -137,55 +137,57 @@
 
 ## 🔍 트러블슈팅
 
-### 1️⃣ 클릭 시 데이터 패칭 지연 → 즉시 UI 반영 필요
+### 1️⃣ Turbo, Husky, Tailwind 설정의 모노레포 환경 이슈 (root)
 
-- **문제**: 클릭 시 서버 데이터 패칭이 완료될 때까지 UI가 반영되지 않아 사용자가 **느리게 느끼는 UX** 발생
-- **해결**: `useOptimistic` 훅 사용하여 **Optimistic UI** 적용 → UI는 즉시 반영하고, 백그라운드에서 서버 동기화
-
-### 2️⃣ `useOptimistic` 사용 → 전역 상태 관리 어려움
-
-- **문제**: `useOptimistic`은 **컴포넌트 로컬 상태 기반**으로 동작하여 **다른 컴포넌트와 상태 공유 불편**
-- **해결**: `Zustand`를 도입해 **글로벌 상태 관리**로 전환 → 전역 상태와 Optimistic UI 상태를 **동기화 관리 가능**하도록 구조화
-
-### 3️⃣ 빠른 클릭 → API 요청 과다 및 서버 부하
-
-- **문제**: 체크박스를 연속 클릭 시 **API가 여러 번 호출**, 서버 부하 및 DB 트래픽 증가
-- **해결**: **사용자 입력 딜레이와 요청 제어**를 위한 **커스텀 훅 개발**
-  - 클릭 시 debounce/throttle 적용
-  - API 요청 중일 땐 추가 요청 차단
-  - 요청 완료 후 상태 갱신
-
-### 4️⃣ React 리렌더링 최적화 → LCP 47% 개선
-
-- **문제**: 상태 변화마다 **모든 컴포넌트 리렌더링 발생 → 성능 저하**
+- **문제**: 문제: Turborepo 모노레포 환경에서 OS 간 Turbo 명령어 호환성 문제, Husky와 pnpm 종료코드 인식 오류, Tailwind JIT 모드 클래스 누락 등의 여러 환경 설정 이슈 발생
 - **해결**:
-  - `useCallback`으로 콜백 함수 메모이제이션 → 함수 재생성 방지
-  - `React.memo`로 prop 동일 시 리렌더링 방지
-- **결과**:
-  | 지표 | 최적화 전 | 최적화 후 | 변화 |
-  |----|----|----|----|
-  | FCP | 0.9초 | 0.9초 | 거의 동일 |
-  | LCP | 3.2초 | 1.7초 | **47% 개선 ✅** |
-  | Speed Index | 1.4초 | 1.4초 | 소폭 개선 |
+  - Turbo 명령어를 브랜치 기준으로 명령어 정적 필터링 방식으로 명시적 설정(--filter=...[origin/dev])
+  - Husky에서 종료 코드를 직접 검사하도록 커스텀 스크립트 작성하여 pre-commit, pre-push 훅 명확화
+  - Tailwind CSS 4의 @source, @theme 디렉티브를 활용하여 컴포넌트 클래스 즉각 반영 및 동적 테마 관리 지원
 
-### 5️⃣ Next.js 15 캐시 전략 설계 → API 호출 절감
+### 2️⃣ Next.js Image 최적화 도메인 문제 (user)
 
-- **문제**: **모든 API 요청 캐시 invalidation → 필요 없는 요청까지 갱신**
-- **해결**:
-  - `fetch` 요청에 `next: { tags: [...] }` 옵션 사용 → 캐시 단위 세분화
-  - `revalidateTag()`로 **단위별 무효화**
-- **주요 설계**:
-  - `CartItem:uuid`: 상품 단건 캐시
-  - `CartUuidsList-cartType`: 장바구니 리스트 캐시
-  - `Product-uuid`: 상품 상세 캐시
-  - `cart:address-uuids-list`, `cart:address-detail-uuid`: 배송지 데이터 분리 캐시
+- **문제**: Next.js의 Image 컴포넌트 사용 시 카카오 등의 외부 URL(http) 최적화 미지원
+- **해결**: imageUtils 모듈을 생성하여 프록시 기반 이미지 URL 최적화 구현
+
+```typecript
+// utils/imageUtils.ts
+export const getOptimizedImageUrl = (url: string) => {
+  if (!url || url.startsWith('data:')) return url;
+  if (url.startsWith('https://') || url.startsWith('http://')) {
+    return `/api/imageProxy?url=${encodeURIComponent(url)}`;
+  }
+  return url;
+};
+```
+
+### 3️⃣ 사파리 브라우저 비디오 호환성 문제 (user)
+
+- **문제**: 사파리 브라우저에서 비디오 재생 호환성 문제로 화면 깨짐 현상
+- **해결**: 사파리 전용 속성을 추가하는 방어 코드 적용
+
+### 4️⃣ Swiper 무한 스크롤 인덱스 동기화 문제 (user)
+
+- **문제**: 비동기 데이터 로드 시 Swiper 슬라이드 인덱스와 데이터 로딩 불일치 발생
+- **해결**: 슬라이드 활성 인덱스와 데이터 로딩 시점 동기화를 위한 별도의 상태 트리거 구현
+
+### 5️⃣ Parallel Routes 간 상태 공유 문제 (busker)
+
+- **문제**: 채팅 페이지 이동 후 재진입 시 SSE 메시지 최신 데이터 미반영
+- **해결**: 로컬 저장소를 활용한 채팅 메시지 상태 캡쳐 및 복구 구현
+
+### 6️⃣ 채팅방 SSE 메시지 렌더링 문제 (user)
+
+- **문제**: Next.js의 Parallel Routes 사용 시 라우트 간 데이터 상태 공유 어려움 발생
+- **해결**: React Context API로 채팅 상태를 공유할 수 있는 전역 상태 관리 구현. ChatContext를 생성하여 모든 라우트에서 접근 가능하도록 처리
 
 ## 🎯 성과 및 결과
 
-- **SSR과 CSR 병행 → 초기 로딩 속도 개선 → SEO 점수 향상 (Lighthouse SEO 점수 68 → 80)**
-- **shadcn UI + Tailwind 적용 → 일관된 디자인 시스템 구축 → UI/UX 통일성 확보**
-- **useOptimistic 도입 → 서버 요청과 무관하게 UI 즉시 반영 → 사용자 체감 속도 개선 및 반응성 향상**
-- **커스텀 훅 개발 → API 요청량 절감 → 서버 부하 감소 및 네트워크 트래픽 최적화 → 서비스 안정성 강화**
+- **Turbo 및 Husky 설정 최적화 → 앱/패키지 간 의존성 관리 효율화, 번들 크기 최적화 및 human error 최소화**
+- **Next.js 이미지 최적화 로직 구현 → 외부 이미지 처리 문제 완벽히 해결**
+- **Swiper 무한 스크롤 최적화 → 비동기 데이터와 슬라이드 인덱스 완벽히 동기화, UX 개선**
+- **SSE 채팅 메시지 상태 관리 개선 → 페이지 전환 간 메시지 상태 유지로 사용자 경험 강화**
+- **Parallel Routes 상태 공유 구조 구축 → 채팅 서비스 UX 통합성 향상 및 유지보수성 개선**
 
 ---
 
