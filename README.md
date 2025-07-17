@@ -97,7 +97,7 @@
 
 - **기간**: 2025.05.02 ~ 2025.07.15
 - **역할**: 프론트엔드 전체(User app, Busker app, Adimin app)
-- **GitHub**: [프로젝트 GitHub]([https://github.com/Demopeu/FE-Starbucks-Renewal](https://github.com/Demopeu/vybz-frontend))
+- **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/vybz-frontend)
 
 ### 📝 프로젝트 설명
 
