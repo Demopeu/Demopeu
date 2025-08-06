@@ -2,8 +2,6 @@
 
 # 👋 About Me
 
-<img width="354" height="354" alt="image" src="https://github.com/user-attachments/assets/27065d3b-a044-4adb-af3d-7ac08fb70dd7" />
-
 **Hello, World!** 저는 신입 개발자 **김동현**입니다.
 
 현재, **프론트엔드**를 중심으로 개발하고 있으며, 머신러닝 기반 **AI 개발**을 취미로 가지고 있습니다.
