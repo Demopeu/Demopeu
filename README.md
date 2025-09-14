@@ -38,58 +38,55 @@
  
 # 🛠️ Skills
 
-## Frontend
+## 🔧 Core Stack
 
-| 기술 | 설명 |
-|:---:|:---|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | 시맨틱 마크업 작성과 웹 표준 준수를 위해 노력. <br>SEO 최적화를 위해 메타태그, 시맨틱 태그 적용. <br>HTML5 input type과 form 요소로 폼 액션 구현 경험. |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | CSS Flexbox와 Grid로 반응형 제작. <br>:has(), :required 의사 클래스 선택자로 JS 없이 상태 기반 스타일 제어. |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ES6+ 함수형 프로그래밍 적용. <br><a href="https://ko.javascript.info/">모던 JavaScript</a> 참고해 기본 원칙·동작 방식 이해·적용. <br>TypeScript 정적 타입 시스템, 타입 추론, 인터페이스로 타입 안전성 확보. |
-| ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | React 18/19 프로젝트 경험. <br>Hooks로 상태 관리·로직 분리 시도. <br>메모라이제이션으로 렌더링 최적화. <br>Context.Provider로 상태 관리 경험. <br>Lighthouse로 성능 점검·개선. |
-| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | **SSR·CSR 병행 개발**: Next.js 14/15 기반 SSR·CSR 병행 구성. <br>**SEO 최적화**: 메타태그, Head 구성 등 SEO 요소 최적화. <br><br>**비동기 API 요청**: Next.js 15의 fetch API 및 캐싱 전략 적용. <br>**서버 액션**: 서버 액션과 캐싱 모델로 데이터 로직 구성. <br><br> **App Router**: App router 디렉토리 구조 이해 및 적용. <br>**UI 분기 처리**: Parallel Routes로 모달·탭·다중 레이아웃 구성. <br>**예외 처리**: not-found.tsx, error.tsx로 라우팅 기반 에러 처리. <br><br>**번들 분석**: next/bundle-analyzer로 번들 시각화 및 코드 분할. <br><br>**파일 업로드**: S3 Presigned URL로 이미지 업로드 직접 구현. <br>**푸시 알림**: next-pwa + Firebase Cloud Messaging으로 푸시 알림 처리. <br>**라이브 스트리밍**: HLS.js로 실시간 방송 시청 기능 구현. <br>**결제 시스템**: Toss Payments SDK 연동으로 결제 기능 구축. <br>**실시간 통신**: WebSocket으로 실시간 데이터 처리, SSE로 알림/DM 수신.|
-| ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logoColor=white) | TanStack Query로 서버 상태 관리 및 캐싱 시스템 구축. <br>자동 재요청·데이터 갱신 로직 구성. <br>staleTime 기준 유효성 판단·중복 요청 방지. <br>React Query DevTools로 실시간 상태 디버깅 및 강제 리패치 구현. |
-| ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white)<br>![Pinia](https://img.shields.io/badge/Pinia-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) | Zustand로 전역 상태 관리 구축. <br>Pinia 전역 상태 관리 경험. |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)<br>![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | Tailwind 유틸리티 퍼스트 방식으로 빠른 UI 제작. <br>미디어쿼리, hover/focus/active 상태 클래스로 반응형·인터랙티브 UI 구현. <br>Bootstrap UI 구현 경험. |
-| ![shadcn UI](https://img.shields.io/badge/shadcn_UI-ffffff?style=for-the-badge&logoColor=black)<br>![lucide-react](https://img.shields.io/badge/lucide-react-000000?style=for-the-badge&logoColor=white) | shadcn UI, lucide-react로 커스터마이징 디자인 시스템·아이콘 시스템 구축. |
-| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | 모노레포 구조 구축. <br>Next.js 기반 3개의 앱 분리 구성. <br>공통 설정·UI 컴포넌트 모듈화. <br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
-| ![Phaser 3](https://img.shields.io/badge/Phaser%203-2E3A59?style=for-the-badge&logo=phaser&logoColor=white) | Phaser 3로 2D 게임 로직과 씬 전환, 입력 처리 구현 진행 중. |
-| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-EF0185?style=for-the-badge&logo=framer&logoColor=white) | 페이지 전환 애니메이션, UI 요소 인터랙션 구현.|
-| ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue-dot-js&logoColor=4FC08D) | Vue Router로 라우팅 구현 경험. |
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+</p>
 
-<details open>
-  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>AI & Machine Learning</strong></summary>
+---
 
-<br>
+## 🚀 Specialties & Advanced Techniques
 
-| 기술 | 설명 |
-|:---:|:---|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | AI 개발에 사용. <br>Django 백엔드 개발 경험. <br>PyTorch·TensorFlow로 머신러닝 모델 학습·파인튜닝. |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | PyTorch로 패션 추천 프로젝트 딥러닝 모델 개발·파인튜닝. |
-| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | TensorFlow로 신경망 기반 분류 모델 구축·학습. |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | AI 모델 서빙 API를 FastAPI로 개발. <br>FastAPI로 효율적 API 서버 구축. |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | 데이터 전처리·분석에 Pandas 활용. <br>대용량 데이터셋 처리·변환. <br>데이터 시각화 시도. |
-| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) | NumPy로 고성능 수치 계산·배열 조작. <br>수학적 모델링·간단 시뮬레이션. |
-| ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) | OpenCV로 이미지 전처리·분석 프로젝트 경험. |
-| ![Gradio](https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white) | Gradio로 AI 모델 웹 인터페이스 구축. |
+| 기술 | 경험 및 강점 |
+|------|--------------|
+| ![Next.js](https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white) | App Router 기반 SSR/CSR 병행 구성, 서버 액션 및 캐싱 전략 실전 적용 |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | 유틸리티 기반 빠른 UI 구성 및 반응형/다크모드 구현에 익숙 |
+| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | 모노레포 구성 및 공통 모듈 최적화로 빌드 효율성 향상 경험 |
 
-</details>
+---
 
-<details open>
-  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>Etc.</strong></summary>
+## 🤖 AI & Machine Learning
 
-<br>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white"/>
+</p>
 
-| 기술 | 설명 |
-|:---:|:---|
-| ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | Django로 백엔드 API 서버·RESTful API 개발. <br>사용자 인증·권한 관리 구현. <br>템플릿 시스템으로 동적 웹 페이지 생성 경험. |
-| ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white) | 코드 스타일 자동 정리. <br>일관된 코드 포맷 유지로 협업 효율 향상 경험. |
-| ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) | TypeScript 정적 분석 및 코드 품질 점검. <br>플러그인 조합으로 프로젝트 맞춤 린트 규칙 적용. |
-| ![Husky](https://img.shields.io/badge/Husky-464647?style=for-the-badge&logo=git&logoColor=white) | Husky Git Hook 구성으로 커밋 전 lint/type check 자동 실행. <br>commit-msg hook으로 메시지 규칙 강제(feat/fix 등, 글자수 제한). |
-| ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white) | Electron으로 Windows 데스크탑 배포 버전 제작·빌드 경험 중. |
-| ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)<br>![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) | C++로 알고리즘 문제 풀이·기본 자료구조·알고리즘 구현. <br>Java 기본 문법·객체지향 개념 이해·간단 코드 작성. |
-| ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) | Visual Studio 통합 디버깅·테스트 도구 활용. |
+---
 
-</details>
+## ⚙️ Etc.
+
+<p>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Husky-464647?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white"/>
+</p>
 
 ---
 
