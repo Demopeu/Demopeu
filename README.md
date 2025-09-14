@@ -48,8 +48,6 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 </p>
 
----
-
 ## 🚀 Specialties & Advanced Techniques
 
 | 기술 | 경험 및 강점 |
@@ -57,8 +55,6 @@
 | ![Next.js](https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white) | App Router 기반 SSR/CSR 병행 구성, 서버 액션 및 캐싱 전략 실전 적용 |
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | 유틸리티 기반 빠른 UI 구성 및 반응형/다크모드 구현에 익숙 |
 | ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | 모노레포 구성 및 공통 모듈 최적화로 빌드 효율성 향상 경험 |
-
----
 
 ## 🤖 AI & Machine Learning
 
@@ -72,8 +68,6 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white"/>
 </p>
-
----
 
 ## ⚙️ Etc.
 
