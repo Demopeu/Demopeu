@@ -91,6 +91,8 @@
 
 </details>
 
+---
+
 # 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
 
 <table align="center">
