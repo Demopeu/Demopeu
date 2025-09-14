@@ -91,9 +91,7 @@
 
 </details>
 
-# ⭐ Frontend Portfolio
-
-## 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
+# 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
 
 <table align="center">
   <tr>
@@ -113,7 +111,7 @@
 - **역할**: 프론트엔드 전체(User app, Busker app, Adimin app)
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/vybz-frontend)
 
-### 📝 프로젝트 설명
+## 📝 프로젝트 설명
 
 - 버스킹 프로그램으로 인한 버스킹 문화에 대한 관심 증가
 - 버스킹 공연 홍보 공간의 부재 / 버스킹 홍보의 어려움
@@ -164,17 +162,6 @@
 - **문제**: Next.js의 Image 컴포넌트 사용 시 카카오 등의 외부 URL(http) 최적화 미지원
 - **해결**: imageUtils 모듈을 생성하여 프록시 기반 이미지 URL 최적화 구현
 
-```typecript
-// utils/imageUtils.ts
-export const getOptimizedImageUrl = (url: string) => {
-  if (!url || url.startsWith('data:')) return url;
-  if (url.startsWith('https://') || url.startsWith('http://')) {
-    return `/api/imageProxy?url=${encodeURIComponent(url)}`;
-  }
-  return url;
-};
-```
-
 ### 3️⃣ 사파리 브라우저 비디오 호환성 문제 (user)
 
 - **문제**: 사파리 브라우저에서 비디오 재생 호환성 문제로 화면 깨짐 현상
@@ -203,9 +190,7 @@ export const getOptimizedImageUrl = (url: string) => {
 - **SSE 채팅 메시지 상태 관리 개선 → 페이지 전환 간 메시지 상태 유지로 사용자 경험 강화**
 - **Parallel Routes 상태 공유 구조 구축 → 채팅 서비스 UX 통합성 향상 및 유지보수성 개선**
 
----
-
-## 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
+# 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
 
 ![Team 114 로고](https://github.com/user-attachments/assets/52cd0249-474b-4ba7-90e7-b2554602aca9)
 
@@ -213,7 +198,7 @@ export const getOptimizedImageUrl = (url: string) => {
 - **역할**: 프론트엔드 (메인 페이지, 상품 상세페이지, 장바구니)
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal)
 
-### 📝 프로젝트 설명
+## 📝 프로젝트 설명
 
 - Next.js 15과 React 19를 사용하여 스타벅스 온라인 쇼핑몰을 리뉴얼한 프로젝트.
 - SSR과 CSR을 병행해 **초기 로딩 속도와 SEO를 개선**하고, **shadcn UI를 활용한 일관된 디자인 시스템 구축**, **Zustand로 글로벌 상태 관리**를 적용.
@@ -288,16 +273,14 @@ export const getOptimizedImageUrl = (url: string) => {
 - **useOptimistic 도입 → 서버 요청과 무관하게 UI 즉시 반영 → 사용자 체감 속도 개선 및 반응성 향상**
 - **커스텀 훅 개발 → API 요청량 절감 → 서버 부하 감소 및 네트워크 트래픽 최적화 → 서비스 안정성 강화**
 
----
-
-## 📌 프로젝트: 실시간 댓글 요약 AI 플랫폼 (SSAFY 기업 연계 프로젝트)
+# 📌 프로젝트: 실시간 댓글 요약 AI 플랫폼 (SSAFY 기업 연계 프로젝트)
 
 ![프로젝트 메인 이미지](https://github.com/user-attachments/assets/fc627a0c-8168-4e3c-87b6-8ad2e309ef89)
 
 - **기간**: 2024.10.28 ~ 2024.11.19
 - **역할**: 프론트엔드 (게시글 상세 페이지, 무한 대댓글 기능 개발)
 
-### 📝 프로젝트 설명
+## 📝 프로젝트 설명
 
 - **실시간 댓글 요약 AI 플랫폼**으로, 게시글에 달린 **깊이 제한 없는 무한 댓글 쓰레드**를 제공하고  
   **각 쓰레드의 요약 정보를 AI가 실시간 생성하여 보여주는 기능**을 구현한 프로젝트.
@@ -348,12 +331,10 @@ export const getOptimizedImageUrl = (url: string) => {
 - **깊이 제한 없는 댓글 쓰레드 제공 → 커뮤니티 사용성 강화**  
   → 기존 댓글 UI가 지원하지 못하던 **무한 대댓글 구조를 도입**, 사용자들이 자유롭게 의사소통할 수 있는 공간 확장.
 
----
-
 <details>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌프로젝트: 버츄얼 아이돌 팬 페이지 제작</strong></summary>
 
-## 📌 프로젝트: 버츄얼 아이돌 팬 페이지 제작
+# 📌 프로젝트: 버츄얼 아이돌 팬 페이지 제작
 
 ![image](https://github.com/user-attachments/assets/3a009e49-3108-4186-90c4-ab79284a36f8)
 
@@ -361,7 +342,7 @@ export const getOptimizedImageUrl = (url: string) => {
 - **인원**: 1명 (개인 프로젝트)
 - **GitHub / 배포 링크**: [팬페이지 바로가기](https://akanelize-fansite.kr/)
 
-### 📝 프로젝트 설명
+## 📝 프로젝트 설명
 
 - **React와 Firebase로 제작한 개인 프로젝트**
 - **유튜브 영상 캘린더**를 제공하여 날짜별로 영상을 확인할 수 있는 팬페이지 구현
@@ -406,7 +387,7 @@ export const getOptimizedImageUrl = (url: string) => {
 <details>
    <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 영화 추천 서비스 - TWM(Travel With Movies)</strong></summary>
 
-## 📌 프로젝트: 영화 추천 서비스 - TWM(Travel With Movies)
+# 📌 프로젝트: 영화 추천 서비스 - TWM(Travel With Movies)
 
 ![프로젝트 로고](https://github.com/Demopeu/TWM/assets/156268475/47bc562f-f5db-42b7-992d-27c5fdc3f784)
 
@@ -415,14 +396,14 @@ export const getOptimizedImageUrl = (url: string) => {
 - **팀원**: 2명 (프론트엔드 1, 백엔드 1)
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/TWM)
 
-### 📝 프로젝트 설명
+## 📝 프로젝트 설명
 
 - Vue.js와 Django 기반의 **영화 추천 웹 서비스** 개발
 - 사용자가 **국가별 영화를 탐색하고**, 위시리스트/감상 목록 관리, 리뷰 작성이 가능한 커뮤니티 제공
 - **PPAP(Pre Processing and After Processing) 알고리즘**을 활용한 맞춤형 영화 추천
 - **Figma**로 UI 디자인 직접 기획 및 **Bootstrap + Vue.js**로 구현
 
-### 🧷 내가 기여한 핵심 기능
+## 🧷 내가 기여한 핵심 기능
 
 | 기능               | 설명                                                                    |
 | ------------------ | ----------------------------------------------------------------------- |
@@ -433,30 +414,30 @@ export const getOptimizedImageUrl = (url: string) => {
 | 커뮤니티 페이지    | **태그 필터, 게시글 리스트, 디테일 이동 로직** Vue.js 기반으로 구현     |
 | 프로필 페이지      | **위시리스트, 시청목록, 인증서 UI/UX 설계 및 Vue.js로 기능 개발**       |
 
-### 🔍 트러블슈팅
+## 🔍 트러블슈팅
 
-#### 1️⃣ 디자인 → 개발 시 컴포넌트 단위로 재사용 어려움
+### 1️⃣ 디자인 → 개발 시 컴포넌트 단위로 재사용 어려움
 
 - **문제**: Figma로 전체 페이지를 한 번에 디자인해 구현 시 **컴포넌트 단위 분리가 어려움**
 - **해결**: **NavBar, CountrySelector, MovieCard 등 컴포넌트 분리**, 각 UI를 slot/prop 방식으로 재사용 가능하게 설계
 
-#### 2️⃣ Vue.js와 Django API 연동 시 CORS 이슈
+### 2️⃣ Vue.js와 Django API 연동 시 CORS 이슈
 
 - **문제**: Vue.js 프론트에서 Django 서버의 API 호출 시 **CORS 관련 에러 발생**
 - **해결**: Django `corsheaders` middleware 적용, **Vue 프록시 설정**으로 개발환경 문제 해결
 
-#### 3️⃣ 사용자 경험(UX)에서 디테일 미흡
+### 3️⃣ 사용자 경험(UX)에서 디테일 미흡
 
 - **문제**: 영화 디테일 페이지의 **위시리스트 버튼이 추가되었는지 직관적이지 않음**
 - **해결**: 버튼 클릭 시 **"위시리스트에 추가되었습니다" 알림 메시지** 및 **이미 추가된 경우 다른 색상으로 표시** 처리
 
-### 🖼️ 작업 화면 예시
+## 🖼️ 작업 화면 예시
 
 ![나라 선택 페이지](https://github.com/Demopeu/TWM/assets/156268475/6c275077-c155-4d7f-bd5a-d2e8b79e7c1b)
 
 ![영화 추천 페이지](https://github.com/Demopeu/TWM/assets/156268475/9c040084-8335-4cb3-b55f-0d3b7020e881)
 
-### 🚩 프로젝트 성과
+## 🚩 프로젝트 성과
 
 - **Vue.js, Bootstrap으로 SPA 반응형 사이트 구축 경험**  
 - **Django API와 Vue.js 연결, Axios 데이터 흐름 이해**  
