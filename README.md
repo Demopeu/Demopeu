@@ -3,6 +3,8 @@
 <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" 
      width="240" align="right" alt="Profile Image" />
 
+<br><br>
+
 # 👋 About Me
 
 > React / Next.js 기반 사용자 경험 중심 개발자  
