@@ -192,6 +192,8 @@
 - **SSE 채팅 메시지 상태 관리 개선 → 페이지 전환 간 메시지 상태 유지로 사용자 경험 강화**
 - **Parallel Routes 상태 공유 구조 구축 → 채팅 서비스 UX 통합성 향상 및 유지보수성 개선**
 
+---
+
 # 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
 
 ![Team 114 로고](https://github.com/user-attachments/assets/52cd0249-474b-4ba7-90e7-b2554602aca9)
@@ -275,6 +277,8 @@
 - **useOptimistic 도입 → 서버 요청과 무관하게 UI 즉시 반영 → 사용자 체감 속도 개선 및 반응성 향상**
 - **커스텀 훅 개발 → API 요청량 절감 → 서버 부하 감소 및 네트워크 트래픽 최적화 → 서비스 안정성 강화**
 
+---
+
 # 📌 프로젝트: 실시간 댓글 요약 AI 플랫폼 (SSAFY 기업 연계 프로젝트)
 
 ![프로젝트 메인 이미지](https://github.com/user-attachments/assets/fc627a0c-8168-4e3c-87b6-8ad2e309ef89)
@@ -332,6 +336,8 @@
 
 - **깊이 제한 없는 댓글 쓰레드 제공 → 커뮤니티 사용성 강화**  
   → 기존 댓글 UI가 지원하지 못하던 **무한 대댓글 구조를 도입**, 사용자들이 자유롭게 의사소통할 수 있는 공간 확장.
+
+---
 
 <details>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌프로젝트: 버츄얼 아이돌 팬 페이지 제작</strong></summary>
