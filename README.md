@@ -2,12 +2,10 @@
 
 # 👋 About Me
 
-<p align="right">
-     <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" 
+<img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" 
      width="240" align="right" alt="Profile Image" />
-</p>
 
-> React / Next.js 기반 사용자 경험 중심 개발자  
+     > React / Next.js 기반 사용자 경험 중심 개발자  
 > 실시간 서비스 · 디자인 시스템 · AI 시스템 연계 경험 보유
 
 **Hello, World!** 신입 개발자 **김동현**입니다.
