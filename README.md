@@ -1,10 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=black&height=250&text=어우러지는%20코드를%20만드는%20개발자🥗&desc=오리엔탈%20샐러드처럼&fontColor=d6ace6&fontSize=40&fontAlign=50&fontAlignY=50&descSize=40&descAlign=30&descAlignY=30" alt="어우러지는 코드를 만드는 개발자" style="width: 100%;" />
 
-<div style="display: flex; align-items: flex-start; gap: 40px;">
+<img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" 
+     width="240" align="right" alt="Profile Image" />
 
-<div style="flex: 1; min-width: 300px">
-
-<h1>👋 About Me</h1>
+# 👋 About Me
 
 > React / Next.js 기반 사용자 경험 중심 개발자  
 > 실시간 서비스 · 디자인 시스템 · AI 시스템 연계 경험 보유
@@ -19,16 +18,6 @@
 
 팀원들과 소통하며, **팀원들과 자연스럽게 어우러지고**,  
 **디자인과 사용자 경험이 어우러지는 코드 및 결과물**을 만드는 것을 목표로 합니다.
-
-</div>
-
-<!-- 오른쪽: 이미지 -->
-<div style="min-width: 200px;">
-   <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" width="250" alt="Profile Image"/>
-</div>
-</div>
-
-
 
 # 🎓 Education
 
