@@ -132,7 +132,7 @@
 - **프론트엔드 1인 전담**으로 User, Busker, Admin 3개 앱 전체 아키텍처 설계 및 개발
 - **Next.js App Router 기반 설계 → 서버 액션, Parallel Routes, 캐싱 전략 등 심화 구조 도입**
 - **Turborepo로 모노레포 구성** 및 공통 UI/설정 분리 → 빌드/개발 효율 향상
-- **WebRTC, HLS.js, SSE, FCM 등 실시간/스트리밍/알림 기능 전반 직접 구현**
+- **Websoket, HLS.js, SSE, FCM 등 실시간/스트리밍/알림 기능 전반 직접 구현**
 - **다수의 브라우저 호환성·데이터 동기화 문제를 해결하며, 사용자 경험을 중심에 둔 구조 설계**
 
 |                                          로그인/메인 페이지/마이페이지                                           |                                                   버스커페이지                                                   |
@@ -161,7 +161,7 @@
 | ---------------- | -------------------------------------------------------- |
 | Root      | 모노레포 구조 구축.<br>공통 설정·UI 컴포넌트 모듈화.<br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
 | User App | TanStack Query를 활용한 상태 관리.<br>FCM 기반 알림 시스템. <br>HLS.js를 활용한 라이브 스트리밍 구축.<br>Toss Payments SDK 연동 결제 시스템 구축. |
-| Busker App | WebRTC 기반 실시간 스트리밍.|
+| Busker App | Websoket 기반 실시간 스트리밍.|
 
 ## 🔍 Troubleshooting Highlights
 
