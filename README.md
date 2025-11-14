@@ -92,7 +92,7 @@
 
 | 이름 | 설명 | 링크 |
 |------|------|------|
-| **BackStage** | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + WebRTC + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend) |
+| **BackStage** | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + Websocket + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend) |
 | **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리) | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
 
 
