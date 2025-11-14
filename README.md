@@ -695,3 +695,4 @@
 - **GitHub:** [https://github.com/Demopeu](https://github.com/Demopeu)
 - **velog:** [https://velog.io/@demopeu/posts](https://velog.io/@demopeu/posts)
 - **GitHub blog:** [https://demopeu.github.io/](https://demopeu.github.io/)
+- **New bolg** [New blog(제작중)](https://blog-gamma-mauve-15.vercel.app/)
