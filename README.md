@@ -168,11 +168,10 @@
 | 이슈 영역 | 요약 |
 |-----------|------|
 | **Turborepo / Husky / Tailwind 설정 충돌** | OS별 호환 이슈 및 JIT 누락 → 명시적 필터링, 커스텀 훅 스크립트, Tailwind 디렉티브로 해결 |
-| **Next.js 외부 이미지 최적화 실패** | http 외부 URL 최적화 미지원 → 프록시 기반 imageUtils 모듈로 우회 |
-| **Safari 비디오 재생 오류** | 비디오가 깜빡이거나 안 나옴 → Safari 전용 속성 대응 |
-| **Swiper 슬라이드와 데이터 불일치** | 무한 스크롤 시 인덱스-데이터 mismatch → 상태 트리거로 동기화 |
+| **Next.js 외부 이미지 호환성 문제** | HTTP 프로토콜 이미지 최적화 미지원 → Image Proxy Route API로 서버 사이드 프록싱 구현 |
+| **Swiper 무한 스크롤 + 비동기 데이터 동기화** | 슬라이드 추가 시 사용자 정보 비동기 로딩으로 렌더링 불일치 → TanStack Query 캐싱 + renderTrigger로 해결 |
 | **Parallel Routes 간 상태 유지 불가** | 채팅 복귀 시 데이터 초기화 → 로컬 저장소 활용 상태 복원 처리 |
-| **SSE 메시지 상태 공유 실패** | 라우팅 간 채팅 메시지 전달 안됨 → Context API 기반 전역 상태 관리 구현 |
+| **SSE 채팅 메시지 영속성 문제** | 페이지 이동 시 SSE 연결 끊김 → ChatRoomContext + localStorage로 메시지 자동 백업/복원 (30분 필터링, 50개 제한) |
 
 ## 🎯 성과 및 결과
 
