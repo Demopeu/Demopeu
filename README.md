@@ -28,18 +28,19 @@
 # 🏆 Awards
 
 - **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상(1등)**
+
   - **수상 날짜:** 2024.08.16
   - **내용:** 공통 프로젝트(트랙 :AIot) 공통 프로젝트 우수팀으로 선정
 
 - **신세계 spharos Academy 기업연계 프로젝트 우수상(2등)**
   - **수상 날짜:** 2025.07.15
   - **내용:** 기업연계 프로젝트 우수팀으로 선정
- 
+
 # 📘 Licenses & Certifications
 
-- **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원, 2025.06.13  
+- **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원, 2025.06.13
 - **컴퓨터활용능력** – 한국산업인력공단, 2019.08.16
- 
+
 # 🛠️ Skills
 
 ## 🔧 Core Stack
@@ -54,11 +55,11 @@
 
 ## 🚀 Specialties & Advanced Techniques
 
-| 기술 | 경험 및 강점 |
-|------|--------------|
-| ![Next.js](https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white) | App Router 기반 SSR/CSR 병행 구성, 서버 액션 및 캐싱 전략 실전 적용 |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | 유틸리티 기반 빠른 UI 구성 및 반응형/다크모드 구현에 익숙 |
-| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white) | 모노레포 구성 및 공통 모듈 최적화로 빌드 효율성 향상 경험 |
+| 기술                                                                                                                    | 경험 및 강점                                                        |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Next.js](https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white)     | App Router 기반 SSR/CSR 병행 구성, 서버 액션 및 캐싱 전략 실전 적용 |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | 유틸리티 기반 빠른 UI 구성 및 반응형/다크모드 구현에 익숙           |
+| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white)          | 모노레포 구성 및 공통 모듈 최적화로 빌드 효율성 향상 경험           |
 
 ## 🤖 AI & Machine Learning
 
@@ -90,11 +91,10 @@
 
 # 📌 대표 프로젝트
 
-| 이름 | 설명 | 링크 |
-|------|------|------|
-| **BackStage** | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + Websocket + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend) |
-| **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리) | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
-
+| 이름                  | 설명                                                               | 링크                                                         |
+| --------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ |
+| **BackStage**         | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + Websocket + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend)        |
+| **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리)                  | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
 
 # 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
 
@@ -113,10 +113,11 @@
 </table>
 
 - **기간**: 2025.05.02 ~ 2025.07.15
-- **역할**: 프론트엔드 전체(User app, Busker app, Adimin app)
+- **역할**: 프론트엔드 전체(User app, Busker app, Admin app)
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/vybz-frontend)
 
 ## 👥 프로젝트 인원
+
 - 총 4명 (프론트엔드 1명, 백엔드 3명)
 
 ## 📝 프로젝트 설명
@@ -124,7 +125,6 @@
 - 버스킹 프로그램으로 인한 버스킹 문화에 대한 관심 증가
 - 버스킹 공연 홍보 공간의 부재 / 버스킹 홍보의 어려움
 - 이러한 문제점들을 해결하기 위한 생태계를 만들기 위해 VYBZ 프로젝트를 시작했습니다.
-  
 - Turborepo를 활용한 모노레포 구성으로 3가지 앱과 패키지 간 의존성 효율적으로 관리.
 
 ## 💻 주요 기여 요약
@@ -157,21 +157,21 @@
 
 ## 🧷 내가 기여한 핵심 기능
 
-| 기능             | 설명                                                     |
-| ---------------- | -------------------------------------------------------- |
-| Root      | 모노레포 구조 구축.<br>공통 설정·UI 컴포넌트 모듈화.<br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
-| User App | TanStack Query를 활용한 상태 관리.<br>FCM 기반 알림 시스템. <br>HLS.js를 활용한 라이브 스트리밍 구축.<br>Toss Payments SDK 연동 결제 시스템 구축. |
-| Busker App | Websoket 기반 실시간 스트리밍.|
+| 기능       | 설명                                                                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Root       | 모노레포 구조 구축.<br>공통 설정·UI 컴포넌트 모듈화.<br>캐시 및 파이프라인 최적화로 개발 생산성 향상.                                             |
+| User App   | TanStack Query를 활용한 상태 관리.<br>FCM 기반 알림 시스템. <br>HLS.js를 활용한 라이브 스트리밍 구축.<br>Toss Payments SDK 연동 결제 시스템 구축. |
+| Busker App | WebSocket 기반 실시간 스트리밍.                                                                                                                   |
 
 ## 🔍 Troubleshooting Highlights
 
-| 이슈 영역 | 요약 |
-|-----------|------|
-| **Turborepo / Husky / Tailwind 설정 충돌** | OS별 호환 이슈 및 JIT 누락 → 명시적 필터링, 커스텀 훅 스크립트, Tailwind 디렉티브로 해결 |
-| **Next.js 외부 이미지 호환성 문제** | HTTP 프로토콜 이미지 최적화 미지원 → Image Proxy Route API로 서버 사이드 프록싱 구현 |
-| **Swiper 무한 스크롤 + 비동기 데이터 동기화** | 슬라이드 추가 시 사용자 정보 비동기 로딩으로 렌더링 불일치 → TanStack Query 캐싱 + renderTrigger로 해결 |
-| **Parallel Routes 간 상태 유지 불가** | 채팅 복귀 시 데이터 초기화 → 로컬 저장소 활용 상태 복원 처리 |
-| **SSE 채팅 메시지 영속성 문제** | 페이지 이동 시 SSE 연결 끊김 → ChatRoomContext + localStorage로 메시지 자동 백업/복원 (30분 필터링, 50개 제한) |
+| 이슈 영역                                     | 요약                                                                                                           |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Turborepo / Husky / Tailwind 설정 충돌**    | OS별 호환 이슈 및 JIT 누락 → 명시적 필터링, 커스텀 훅 스크립트, Tailwind 디렉티브로 해결                       |
+| **Next.js 외부 이미지 호환성 문제**           | HTTP 프로토콜 이미지 최적화 미지원 → Image Proxy Route API로 서버 사이드 프록싱 구현                           |
+| **Swiper 무한 스크롤 + 비동기 데이터 동기화** | 슬라이드 추가 시 사용자 정보 비동기 로딩으로 렌더링 불일치 → TanStack Query 캐싱 + renderTrigger로 해결        |
+| **Parallel Routes 간 상태 유지 불가**         | 채팅 복귀 시 데이터 초기화 → 로컬 저장소 활용 상태 복원 처리                                                   |
+| **SSE 채팅 메시지 영속성 문제**               | 페이지 이동 시 SSE 연결 끊김 → ChatRoomContext + localStorage로 메시지 자동 백업/복원 (30분 필터링, 50개 제한) |
 
 ## 🎯 성과 및 결과
 
@@ -190,9 +190,9 @@
 
 ## 💬 프로젝트 회고
 
-- 백엔드는 MSA 아키텍처를 도입하고, 프론트엔드는 Turborepo 기반 모노레포로 구성하면서, 초기에는 각 시스템의 독립성과 모듈화를 성공적으로 달성함  
-- 하지만 서비스가 확장될수록 **CI/CD 파이프라인 통합**, **공통 환경변수 관리**, **배포 간 연동 테스트 자동화** 등에서 많은 시행착오를 겪음  
-- 단일 서비스 구조보다 **MSA+모노레포 조합은 운영 복잡도가 훨씬 높다는 점**을 직접 체감함  
+- 백엔드는 MSA 아키텍처를 도입하고, 프론트엔드는 Turborepo 기반 모노레포로 구성하면서, 초기에는 각 시스템의 독립성과 모듈화를 성공적으로 달성함
+- 하지만 서비스가 확장될수록 **CI/CD 파이프라인 통합**, **공통 환경변수 관리**, **배포 간 연동 테스트 자동화** 등에서 많은 시행착오를 겪음
+- 단일 서비스 구조보다 **MSA+모노레포 조합은 운영 복잡도가 훨씬 높다는 점**을 직접 체감함
 
 ---
 
@@ -205,6 +205,7 @@
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal)
 
 ## 👥 프로젝트 인원
+
 - 총 5명 (프론트엔드 1명, 백엔드 4명)
 
 ## 📝 프로젝트 설명
@@ -312,6 +313,7 @@
 - **역할**: 프론트엔드 (게시글 상세 페이지, 무한 대댓글 기능 개발)
 
 ## 👥 프로젝트 인원
+
 - 총 5명 (프론트엔드 1명, 백엔드 2명, AI 2명)
 
 ## 📝 프로젝트 설명
@@ -328,8 +330,8 @@
 - **Skeleton UI**, `refetch`, `append` 등 다양한 전략 테스트를 통해 **사용성과 유지보수성 간 균형** 달성
 - 백엔드 및 AI 팀과 긴밀히 협력하여, **댓글 트리 ↔ 요약 AI 기능 간 데이터 흐름을 일관되게 연결**
 
-|                                           댓글 페이지                                           |                                           대댓글 페이지                                           |                                           요약 기능                                           |
-| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+|                                       댓글 페이지                                        |                                       대댓글 페이지                                        |                                        요약 기능                                         |
+| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | ![댓글](https://github.com/user-attachments/assets/f8d545da-0853-4ee5-9562-23fb6752c312) | ![대댓글](https://github.com/user-attachments/assets/d4b0e4d8-8bbf-4c86-b727-207a444018d9) | ![요약](https://github.com/user-attachments/assets/6b78ca2a-661a-4de8-987f-e9a7305a047a) |
 
 ## 🧷 내가 기여한 핵심 기능
@@ -375,7 +377,7 @@
 
 ## 🏆 프로젝트 전체 성과
 
-- 프로젝트 결과물이 기업에 전달되어 **실제 코드가 업무에 활용되는 기업 연계 실무 프로젝트 경험**  
+- 프로젝트 결과물이 기업에 전달되어 **실제 코드가 업무에 활용되는 기업 연계 실무 프로젝트 경험**
 - **기업이 요구한 모든 기능적·기술적 조건을 충족하며**, 무한 대댓글, 실시간 요약, 사용자 경험 최적화 등 실 서비스 수준의 기능을 **협업 속에서 프론트 단독 구현**
 - 사용자 경험에 중점을 두고 설계한 결과, **UX 평가에서 긍정적 피드백 획득 ("댓글 흐름이 자연스럽다")**
 
@@ -385,6 +387,118 @@
 - 프로젝트 종료 후 팀원들과 **회고 미팅을 진행하며 기술적, 협업적 관점에서 개선점을 도출**
 - 리더 역할을 맡으면서 단순한 기능 구현을 넘어서 **전체 흐름 조율과 프로젝트 방향성 유지의 중요성**을 체감
 
+---
+
+<details>
+  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 프로젝트: FSD 아키텍처 기반 기술 블로그 (Turborepo 모노레포)</strong></summary>
+
+# 📌 프로젝트: FSD 아키텍처 기반 기술 블로그
+
+<!-- 여기에 스크린샷 추가 -->
+
+- **기간**: 2024.11 ~ 현재 운영 중
+- **인원**: 1명 (개인 프로젝트)
+- **배포 링크**: [demopeu.vercel.app](https://demopeu.vercel.app/)
+- **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/blog)
+
+## 👥 프로젝트 인원
+
+- 1명 (개인 프로젝트)
+
+## 📝 프로젝트 설명
+
+- **"새로운 기술을 직접 시험하고 기록하는 블로그"**
+- **Feature-Sliced Design(FSD)** 아키텍처를 적용하여 확장 가능한 프론트엔드 구조 설계
+- **Turborepo 기반 모노레포**로 포트폴리오(home)와 블로그(blog) 앱을 통합 관리
+- **Vercel Microfrontends**를 활용한 Multi-Zone 배포로 단일 도메인에서 여러 앱 제공
+- Next.js 16, React 19, Tailwind CSS v4 등 **최신 기술 스택** 적극 도입
+
+## 💻 주요 기여 요약
+
+- **FSD 아키텍처 기반 계층적 폴더 구조 설계** (shared → entities → features → widgets)
+- **Turborepo 모노레포 마이그레이션**으로 공통 UI/설정 패키지화 및 빌드 최적화 (~77% 빌드 시간 단축)
+- **Vercel Microfrontends 도입**으로 RSC(React Server Components) 크로스존 라우팅 문제 해결
+- **ADR(Architecture Decision Record) 기반 의사결정 문서화** 및 에러 해결 과정 체계적 기록
+
+## 🧷 내가 기여한 핵심 기능
+
+| 기능                       | 설명                                                                 |
+| -------------------------- | -------------------------------------------------------------------- |
+| **FSD 아키텍처 설계**      | 의존성 규칙(상위→하위)과 명명 규칙 정립, 캡슐화된 컴포넌트 구조 설계 |
+| **Turborepo 모노레포**     | apps/(home, blog) + packages/(ui, config) 구조로 공통 모듈 최적화    |
+| **Tailwind v4 JIT 최적화** | `@source` 지시어로 모노레포 패키지 스캔 전략 구현, CSS 크기 최소화   |
+| **Vercel Microfrontends**  | RSC prefetch 문제 해결, 크로스존 네비게이션 구현                     |
+| **MDX 기반 블로그 시스템** | 마크다운 렌더링, 태그 필터링, Resume/Blog 페이지 분리 구성           |
+
+## 🔍 Troubleshooting Highlights
+
+### 1️⃣ Turborepo 모노레포 마이그레이션 - 중복 코드 제거 및 빌드 최적화
+
+- **문제**: 멀티레포 분리 시 UI 컴포넌트, 유틸리티, 타입 정의 중복, 의존성 동기화 복잡성 증가
+- **해결**:
+  - Turborepo 기반 모노레포 구조 설계 (`apps/` + `packages/`)
+  - `@repo/ui`, `@repo/tailwind-config`, `@repo/typescript-config` 등 공통 패키지 분리
+  - 함수 수준 캐싱으로 증분 빌드 최적화 (초기 180초 → 캐시 활용 시 40초, **77% 개선**)
+- **ADR 문서**: [0003-monorepo-migration.md](https://github.com/Demopeu/blog/blob/main/docs/adr/0003-monorepo-migration.md)
+
+### 2️⃣ Tailwind CSS v4 모노레포 패키지 스캔 전략
+
+- **문제**: `packages/ui`의 컴포넌트 클래스(`min-h-svh`)가 CSS에 포함되지 않음, Tailwind v4가 앱 소스만 스캔
+- **해결**:
+  - 선택적 `@source` 지시어로 ui 패키지의 `components/` 디렉토리만 명시적 스캔
+  - CSS 크기 최소화 (hooks, lib 등 불필요한 디렉토리 제외)
+  - 동적 클래스명, 조건부 렌더링에도 안전한 구조 확보
+- **ADR 문서**: [0004-tailwind-jitengine-모노레포한계.md](https://github.com/Demopeu/blog/blob/main/docs/adr/0004-tailwind-jitengine-%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC%ED%95%9C%EA%B3%84.md)
+
+### 3️⃣ Vercel RSC 404 에러 - Microfrontends 도입으로 근본 해결
+
+- **문제**: Reverse Proxy 환경에서 RSC(React Server Components) prefetch 요청 404 에러 발생
+  ```
+  GET https://demopeu.vercel.app/blog/typescript?_rsc=1r34m 404 (Not Found)
+  ```
+- **원인**:
+  - RSC prefetch는 브라우저 단에서 직접 발생하여 서버 레벨 프록시로 가로챌 수 없음
+  - `vercel.json` rewrites는 정적 경로만 처리, Next.js 내부 RSC 메커니즘 미지원
+- **해결**:
+  - `@vercel/microfrontends` 패키지 도입
+  - `microfrontends.json`으로 앱 간 라우팅 정의
+  - `PrefetchCrossZoneLinks` 컴포넌트로 클라이언트 단에서 RSC 요청 가로채기
+  - 커스텀 Link 컴포넌트로 크로스존 네비게이션 구현
+- **에러 문서**: [0003-vercel-rsc-404error.md](https://github.com/Demopeu/blog/blob/main/docs/errors/0003-vercel-rsc-404error.md)
+
+### 4️⃣ Next.js Reverse Proxy CSS Bundle 404 에러
+
+- **문제**: `vercel.json`으로 프록시 구성 시 CSS/JS 번들 파일 404, `basePath` 추가 시 정적 자산 경로 문제
+- **해결**:
+  - Multi Zones 패턴 조사 및 적용
+  - `basePath: '/blog'` 설정 + `redirects` 구성
+  - 모든 정적 자산 경로에 `/blog/` prefix 추가
+  - 최종적으로 Microfrontends로 완전 해결 (basePath 불필요)
+- **에러 문서**: [0002-nextjs_reverse_proxy_css_bundle_asset_404.md](https://github.com/Demopeu/blog/blob/main/docs/errors/0002-nextjs_reverse_proxy_css_bundle_asset_404.md)
+
+## 🎯 성과 및 결과
+
+- **아키텍처 설계 역량 강화**: FSD 패턴 적용으로 계층적 의존성 관리 및 확장 가능한 구조 설계 경험
+- **모노레포 구축 경험**: Turborepo 기반 증분 빌드 최적화로 **77% 빌드 시간 단축** (180초 → 40초)
+- **최신 기술 스택 도입**: Next.js 16, React 19, Tailwind v4, Vercel Microfrontends 등 실전 적용
+- **문제 해결 프로세스 정립**: ADR/에러 문서 작성으로 기술적 의사결정 과정 체계적 기록
+
+## 🏆 프로젝트 전체 성과
+
+- **FSD 아키텍처를 실전 프로젝트에 적용**하여 확장 가능한 프론트엔드 구조 설계 역량 증명
+- **Turborepo 모노레포 마이그레이션** 전 과정을 단독 수행하며 빌드 최적화 및 공통 모듈 관리 경험 축적
+- **Vercel Microfrontends 도입**으로 RSC prefetch 문제를 근본적으로 해결, Multi-Zone 배포 구조 구현
+- **ADR 기반 의사결정 문서화**로 기술 선택 과정의 투명성 확보 및 협업 역량 강화
+
+## 💬 프로젝트 회고
+
+- **"어떻게 구조를 설계할 것인가"**에 집중하며 FSD 아키텍처를 직접 적용해봄
+- 모노레포 마이그레이션 과정에서 **빌드 최적화, 의존성 관리, 패키지 분리 전략** 등 실전 경험 축적
+- Vercel Microfrontends 문제 해결 과정에서 **서버 레벨이 아닌 클라이언트 레벨에서의 해결책**을 찾는 것이 핵심임을 깨달음
+- **ADR과 에러 문서 작성 습관**을 들이며 기술적 의사결정 과정을 체계적으로 기록하는 방법 학습
+- 새로운 기술을 시험하고 문제를 해결하는 과정 자체가 **가장 큰 학습**이었음을 체감
+
+</details>
 
 ---
 
@@ -400,6 +514,7 @@
 - **GitHub / 배포 링크**: [팬페이지 바로가기](https://akanelize-fansite.kr/)
 
 ## 👥 프로젝트 인원
+
 - 1명 (개인 프로젝트)
 
 ## 📝 프로젝트 설명
@@ -476,8 +591,9 @@
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/TWM)
 
 ## 👥 프로젝트 인원
+
 - 총 2명 (풀스텍 1명, 백엔드 1명)  
-※ 프론트엔드 전반, UI/UX 디자인, Django 연동 일부까지 직접 담당 (사실상 프론트 중심의 풀스택 역할)
+  ※ 프론트엔드 전반, UI/UX 디자인, Django 연동 일부까지 직접 담당 (사실상 프론트 중심의 풀스택 역할)
 
 ## 📝 프로젝트 설명
 
@@ -529,10 +645,10 @@
 
 ## 🚩 프로젝트 성과
 
-- **Vue.js, Bootstrap으로 SPA 반응형 사이트 구축 경험**  
-- **Django API와 Vue.js 연결, Axios 데이터 흐름 이해**  
-- **Figma로 UI/UX 디자인 직접 기획 및 구현 경험**  
-- **영화 추천 알고리즘 설명 자료 작성 및 발표 경험**  
+- **Vue.js, Bootstrap으로 SPA 반응형 사이트 구축 경험**
+- **Django API와 Vue.js 연결, Axios 데이터 흐름 이해**
+- **Figma로 UI/UX 디자인 직접 기획 및 구현 경험**
+- **영화 추천 알고리즘 설명 자료 작성 및 발표 경험**
 - **실제 사용자를 가정한 UX 개선 및 피드백 반영**
 
 ## 🏆 프로젝트 전체 성과 / 회고
@@ -694,4 +810,4 @@
 - **GitHub:** [https://github.com/Demopeu](https://github.com/Demopeu)
 - **velog:** [https://velog.io/@demopeu/posts](https://velog.io/@demopeu/posts)
 - **GitHub blog:** [https://demopeu.github.io/](https://demopeu.github.io/)
-- **New bolg** [New blog(제작중)](https://blog-gamma-mauve-15.vercel.app/)
+- **New blog** [New blog](https://demopeu.vercel.app/)
