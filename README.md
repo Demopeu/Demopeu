@@ -389,7 +389,7 @@
 
 ![demopeu vercel app_](https://github.com/user-attachments/assets/ab1c9450-9bdc-4115-9773-d6ec458e1cba)
 
-- **기간**: 2024.11 ~ 현재 운영 중
+- **기간**: 2025.11 ~ 현재 운영 중
 - **인원**: 1명 (개인 프로젝트)
 - **배포 링크**: [demopeu.vercel.app](https://demopeu.vercel.app/)
 - **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/blog)
