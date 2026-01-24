@@ -98,6 +98,8 @@
 | **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리)                  | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
 | **Tech Blog (FSD)** | 기술 블로그 (FSD 설계, Turborepo, Vercel Microfrontends) | [🔗 GitHub](https://github.com/Demopeu/blog) |
 
+---
+
 # 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
 
 <table align="center">
