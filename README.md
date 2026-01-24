@@ -415,7 +415,7 @@
 - **ADR과 에러 문서 작성 습관**을 들이며 기술적 의사결정 과정을 체계적으로 기록하는 방법 학습
 - 새로운 기술을 시험하고 문제를 해결하는 과정 자체가 **가장 큰 학습**이었음을 체감
 
----
+# 💻 Frontend & Architecture Projects
 
 <details>
   <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 프로젝트: 실시간 댓글 요약 AI 플랫폼 (SSAFY 기업 연계 프로젝트)</strong></summary>
@@ -493,127 +493,6 @@
 - 프론트 1인 구성으로 개발을 전담하면서도 팀장 역할을 맡아 **매일 아침 스크럼 진행** 및 **데일리 목표 공유**
 - 프로젝트 종료 후 팀원들과 **회고 미팅을 진행하며 기술적, 협업적 관점에서 개선점을 도출**
 - 리더 역할을 맡으면서 단순한 기능 구현을 넘어서 **전체 흐름 조율과 프로젝트 방향성 유지의 중요성**을 체감
-
-</details>
-
-# ⭐ Other Projects Portfolio
-
-<details>
-  <summary><strong>📌 자율 주행 보드를 활용한 무인 주차 서비스 - MVP (Management for Valet Parking)</strong></summary>
-  
-- **프로젝트명:** 자율 주행 보드를 활용한 무인 주차 서비스
-- **기간 / 인원:** 2024.07.08 ~ 2024.08.16 (6주), 6명
-- **개요:** 자율 주행 보드를 활용해 차량의 무인 주차 시스템을 제공하는 서비스로, 사용자 편의를 극대화하고 주차장 관리자의 운영 효율성을 높임
-- **기술 / 환경:**
-    - **백엔드(BE):** Java 17, SpringBoot, RabbitMQ 3.13.6
-    - **임베디드 시스템(EM):** Python 3.11.2, C++, ROS noetic, Mosquitto 2.0.11
-    - **AI:** Python 3.9.13, Gymnasium, stable-baselines3 2.3.2, highway-env 1.8.2, CUDA 12.1
-- **담당 역할:** 
-  - 팀장
-  - 강화학습 환경 제작
-  - 핵심 알고리즘 설계 및 실제 환경 조성
-- **구현 사항:** 
-  **강화학습 기반 자율 주차 모델 개발**
-  
-  - **강화 학습 환경 제작:**
-    - 강화학습을 위한 시뮬레이션 환경 구축
-
-- **핵심 알고리즘 설계:**
-
-  - Soft Actor-Critic (SAC) 알고리즘과 Hindsight Experience Replay (HER) 알고리즘 적용
-  - 모델의 학습 효율성을 높이기 위한 최적화 작업
-
-- **실제 환경 조성:**
-
-  - 실물 차량과 자율 주행 보드의 통합
-
-- **성과 / 학습:**
-
-  - **성과:**
-    - 강화학습 기반 자율 주차 모델의 성공적인 구현
-    - 500만번 중 0번의 사고 발생
-  - **학습:**
-    - 강화학습 모델의 설계 및 최적화 경험 축적
-    - 팀 리더로서의 프로젝트 관리 및 팀원 간의 효과적인 커뮤니케이션 능력 향상
-
-- **참고 링크:**
-  - [AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/SW.md)
-  - [프로젝트 기획서](https://www.notion.so/6ff283b4e0324e27a23fe5b721305bcc)
-  - [API 명세서](https://www.notion.so/API-f64b46ae482842219462fde2b702f689)
-  - [목업](https://www.figma.com/design/SNqRm7PsHwA5R10uP15Voq/%EC%9E%90%EC%9C%A8%EC%A3%BC%EC%B0%A8-%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC?node-id=75-309&t=8n1PO18hJ2bVxxgv-1)
-  - [포팅 메뉴얼](https://humdrum-geranium-104.notion.site/66a2392070744374ba0238d9c6f74f6c)
-
-</details>
-
-<details>
-  <summary><strong>📌 남성들을 위한 패션 분석 플랫폼 - O-OTd</strong></summary>
-  
-- **프로젝트명:** O-OTd - 패션 추천 서비스
-- **기간 / 인원:** 2024.08.26 ~ 2024.10.25 (6주), 6명
-- **개요:** 
-  "O-OTd"는 남성들이 자신의 스타일을 손쉽게 찾고, 새로운 패션을 발견할 수 있도록 돕는 패션 추천 및 참고 서비스. 사용자들은 언제 어디서나 자신의 개성을 표현할 수 있는 스타일을 쉽게 탐색하고, 유사한 스타일을 추천받아 새로운 패션에 도전할 수 있게 해주는 어플리케이션.
-- **기술 / 환경:** 
-  - **Frontend:** Typescript, React-native, NodeJs, Axios, Zustand
-  - **Backend:** Java, Spring Boot, Spring Cloud, Eureka, MySql, Redis
-  - **Infra:** Docker, Docker Compose, Nginx, Kafka, Zookeeper
-  - **CI/CD:** Jenkins
-- **담당 역할:** 
-  - AI 개발
-  - AI 모델을 사용한 API 개발
-  
-- **구현 사항:** 
-  **AI 기반 패션 추천 시스템 개발:** 
-  - **ImageFusion API 개발:**
-    - **목표:** YOLO 모델을 사용하여 이미지에서 특정 클래스를 감지하고, 감지된 정보를 기반으로 6차원 벡터를 생성하여 외부 클러스터 예측 서버로 전송하는 API 개발.
-    - **역할:** 
-      - YOLO 모델 통합 및 이미지 처리 파이프라인 설계.
-      - 6차원 벡터 생성 로직 구현.
-      - 외부 클러스터 예측 서버와의 데이터 통신 API 개발 및 최적화.
-  
-  - **AI LENS 기능 개발:**
-    - **목표:** 사용자 스타일을 분석하고, 유사한 스타일을 추천하는 AI 기반 렌즈 기능 개발.
-    - **역할:** 
-      - 스타일 분석 모델 설계 및 학습.
-      - 추천 알고리즘 개발 및 테스트.
-      - 프론트엔드와의 연동을 위한 API 인터페이스 설계.
-
-- **성과 / 학습:**
-
-  - **성과:**
-
-    - AI 기반 패션 추천 시스템을 성공적으로 구현하여 사용자 만족도 25% 향상.
-    - AI LENS 기능 출시 후 사용자 참여도 30% 증가.
-
-  - **학습:**
-    - 머신러닝 모델 학습 및 최적화 경험 축적.
-    - 팀 협업을 통한 문제 해결 및 프로젝트 관리 능력 향상.
-
-- **참고 링크:**
-  - [객체 인식 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_YOLOv8_ResNet50_Fashion.md)
-  - [앙상블 기반 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_ensemble_meta_model_image_classification_project.md)
-  - [프로젝트 기획서](https://www.notion.so/11862c55ad6b80b2aa7fe51218f6eb92?pvs=4)
-
-</details>
-
-<details>
-  <summary><strong>📌 AI 기반 코드 리뷰 시스템 IMS 개발</strong></summary>
-  
-- **프로젝트명:** IMS (I’m Solo)
-- **기간 / 인원:** 2025.05.23 ~ 2025.05.25 (2일), 1명
-- **개요:** GitHub Pull Request(PR)에 자동으로 시맨틱 리뷰를 생성하여 댓글로 남기는 AI 코드 리뷰 시스템 개발
-- **기술 / 환경:** TypeScript, Fastify, Node.js, LLaMA 3
-- **담당 역할:** 전체 시스템 설계 및 개발, GitHub Webhook 연동, LLM 기반 리뷰 로직 구현
-- **구현 사항:**  
-  - PR 이벤트 감지 및 diff 코드 추출  
-  - LLaMA 3 기반 자연어 리뷰 생성 및 프롬프팅
-  - 리뷰 내용을 한국어로 Markdown 포맷화 후 자동 댓글 작성  
-  - 리뷰 로그 JSON 저장 시스템 구축
-- **성과 / 학습:**  
-  - GitHub Webhook을 활용한 자동화 서비스 개발 경험  
-  - LLM을 활용한 코드 리뷰 자동화 로직 설계 및 적용  
-  - 실사용 워크플로우에 AI 리뷰 기능을 통합하는 시스템 구축 역량 향상
-- **참고 링크:**
-  - [IMS (I’m Solo)](https://github.com/Demopeu/IMS)
 
 </details>
 
@@ -783,6 +662,127 @@
 - **구현 사항:** OX 퀴즈 결과에 따른 각각의 결과 페이지 구현
 - **성과 / 학습:** 백엔드와 프론트 간의 상황 이해 및 갈등 해결
 - ~~**참고 링크:** [https://www.ssafy11th-songsam.site/](https://www.ssafy11th-songsam.site/)~~
+
+</details>
+
+# 🤖 AI Projects
+
+<details>
+  <summary><strong>📌 자율 주행 보드를 활용한 무인 주차 서비스 - MVP (Management for Valet Parking)</strong></summary>
+  
+- **프로젝트명:** 자율 주행 보드를 활용한 무인 주차 서비스
+- **기간 / 인원:** 2024.07.08 ~ 2024.08.16 (6주), 6명
+- **개요:** 자율 주행 보드를 활용해 차량의 무인 주차 시스템을 제공하는 서비스로, 사용자 편의를 극대화하고 주차장 관리자의 운영 효율성을 높임
+- **기술 / 환경:**
+    - **백엔드(BE):** Java 17, SpringBoot, RabbitMQ 3.13.6
+    - **임베디드 시스템(EM):** Python 3.11.2, C++, ROS noetic, Mosquitto 2.0.11
+    - **AI:** Python 3.9.13, Gymnasium, stable-baselines3 2.3.2, highway-env 1.8.2, CUDA 12.1
+- **담당 역할:** 
+  - 팀장
+  - 강화학습 환경 제작
+  - 핵심 알고리즘 설계 및 실제 환경 조성
+- **구현 사항:** 
+  **강화학습 기반 자율 주차 모델 개발**
+  
+  - **강화 학습 환경 제작:**
+    - 강화학습을 위한 시뮬레이션 환경 구축
+
+- **핵심 알고리즘 설계:**
+
+  - Soft Actor-Critic (SAC) 알고리즘과 Hindsight Experience Replay (HER) 알고리즘 적용
+  - 모델의 학습 효율성을 높이기 위한 최적화 작업
+
+- **실제 환경 조성:**
+
+  - 실물 차량과 자율 주행 보드의 통합
+
+- **성과 / 학습:**
+
+  - **성과:**
+    - 강화학습 기반 자율 주차 모델의 성공적인 구현
+    - 500만번 중 0번의 사고 발생
+  - **학습:**
+    - 강화학습 모델의 설계 및 최적화 경험 축적
+    - 팀 리더로서의 프로젝트 관리 및 팀원 간의 효과적인 커뮤니케이션 능력 향상
+
+- **참고 링크:**
+  - [AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/SW.md)
+  - [프로젝트 기획서](https://www.notion.so/6ff283b4e0324e27a23fe5b721305bcc)
+  - [API 명세서](https://www.notion.so/API-f64b46ae482842219462fde2b702f689)
+  - [목업](https://www.figma.com/design/SNqRm7PsHwA5R10uP15Voq/%EC%9E%90%EC%9C%A8%EC%A3%BC%EC%B0%A8-%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC?node-id=75-309&t=8n1PO18hJ2bVxxgv-1)
+  - [포팅 메뉴얼](https://humdrum-geranium-104.notion.site/66a2392070744374ba0238d9c6f74f6c)
+
+</details>
+
+<details>
+  <summary><strong>📌 남성들을 위한 패션 분석 플랫폼 - O-OTd</strong></summary>
+  
+- **프로젝트명:** O-OTd - 패션 추천 서비스
+- **기간 / 인원:** 2024.08.26 ~ 2024.10.25 (6주), 6명
+- **개요:** 
+  "O-OTd"는 남성들이 자신의 스타일을 손쉽게 찾고, 새로운 패션을 발견할 수 있도록 돕는 패션 추천 및 참고 서비스. 사용자들은 언제 어디서나 자신의 개성을 표현할 수 있는 스타일을 쉽게 탐색하고, 유사한 스타일을 추천받아 새로운 패션에 도전할 수 있게 해주는 어플리케이션.
+- **기술 / 환경:** 
+  - **Frontend:** Typescript, React-native, NodeJs, Axios, Zustand
+  - **Backend:** Java, Spring Boot, Spring Cloud, Eureka, MySql, Redis
+  - **Infra:** Docker, Docker Compose, Nginx, Kafka, Zookeeper
+  - **CI/CD:** Jenkins
+- **담당 역할:** 
+  - AI 개발
+  - AI 모델을 사용한 API 개발
+  
+- **구현 사항:** 
+  **AI 기반 패션 추천 시스템 개발:** 
+  - **ImageFusion API 개발:**
+    - **목표:** YOLO 모델을 사용하여 이미지에서 특정 클래스를 감지하고, 감지된 정보를 기반으로 6차원 벡터를 생성하여 외부 클러스터 예측 서버로 전송하는 API 개발.
+    - **역할:** 
+      - YOLO 모델 통합 및 이미지 처리 파이프라인 설계.
+      - 6차원 벡터 생성 로직 구현.
+      - 외부 클러스터 예측 서버와의 데이터 통신 API 개발 및 최적화.
+  
+  - **AI LENS 기능 개발:**
+    - **목표:** 사용자 스타일을 분석하고, 유사한 스타일을 추천하는 AI 기반 렌즈 기능 개발.
+    - **역할:** 
+      - 스타일 분석 모델 설계 및 학습.
+      - 추천 알고리즘 개발 및 테스트.
+      - 프론트엔드와의 연동을 위한 API 인터페이스 설계.
+
+- **성과 / 학습:**
+
+  - **성과:**
+
+    - AI 기반 패션 추천 시스템을 성공적으로 구현하여 사용자 만족도 25% 향상.
+    - AI LENS 기능 출시 후 사용자 참여도 30% 증가.
+
+  - **학습:**
+    - 머신러닝 모델 학습 및 최적화 경험 축적.
+    - 팀 협업을 통한 문제 해결 및 프로젝트 관리 능력 향상.
+
+- **참고 링크:**
+  - [객체 인식 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_YOLOv8_ResNet50_Fashion.md)
+  - [앙상블 기반 AI README.md](https://github.com/Demopeu/SaveToAI/blob/main/visonAI_ensemble_meta_model_image_classification_project.md)
+  - [프로젝트 기획서](https://www.notion.so/11862c55ad6b80b2aa7fe51218f6eb92?pvs=4)
+
+</details>
+
+<details>
+  <summary><strong>📌 AI 기반 코드 리뷰 시스템 IMS 개발</strong></summary>
+  
+- **프로젝트명:** IMS (I’m Solo)
+- **기간 / 인원:** 2025.05.23 ~ 2025.05.25 (2일), 1명
+- **개요:** GitHub Pull Request(PR)에 자동으로 시맨틱 리뷰를 생성하여 댓글로 남기는 AI 코드 리뷰 시스템 개발
+- **기술 / 환경:** TypeScript, Fastify, Node.js, LLaMA 3
+- **담당 역할:** 전체 시스템 설계 및 개발, GitHub Webhook 연동, LLM 기반 리뷰 로직 구현
+- **구현 사항:**  
+  - PR 이벤트 감지 및 diff 코드 추출  
+  - LLaMA 3 기반 자연어 리뷰 생성 및 프롬프팅
+  - 리뷰 내용을 한국어로 Markdown 포맷화 후 자동 댓글 작성  
+  - 리뷰 로그 JSON 저장 시스템 구축
+- **성과 / 학습:**  
+  - GitHub Webhook을 활용한 자동화 서비스 개발 경험  
+  - LLM을 활용한 코드 리뷰 자동화 로직 설계 및 적용  
+  - 실사용 워크플로우에 AI 리뷰 기능을 통합하는 시스템 구축 역량 향상
+- **참고 링크:**
+  - [IMS (I’m Solo)](https://github.com/Demopeu/IMS)
 
 </details>
 
