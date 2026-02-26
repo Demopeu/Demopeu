@@ -4,7 +4,7 @@
       <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" width="220" alt="프로필 이미지" />
     </td>
     <td valign="top">
-      <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='50'%3E%3Ctext x='0' y='35' font-family='system-ui, -apple-system, sans-serif' font-size='28' font-weight='bold' fill='%231a73e8'%3EIntroduction%3C/text%3E%3Cline x1='0' y1='48' x2='600' y2='48' stroke='%231a73e8' stroke-width='2'/%3E%3C/svg%3E" alt="Introduction" />
+      <img src="./assets/intro.svg" width="100%" alt="Introduction" />
       <br/><br/>
       <strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
       Next.js App Router 생태계와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트의 규모와 특성에 맞는 다양한 아키텍처 패턴을 도입하여 비즈니스 로직을 체계적으로 분리하고, 앱 간 공통 모듈 패키지화 및 빌드 파이프라인 최적화 경험이 있습니다.<br/><br/>
@@ -13,16 +13,18 @@
   </tr>
 </table>
 
-<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Personal Information</h2>
+<br/>
+
+<img src="./assets/personal.svg" width="100%" alt="Personal Information" />
 
 - **NAME:** 김동현(Demopeu)
 - **EMAIL:** dnanf12345@naver.com
 - **GITHUB:** [https://github.com/Demopeu](https://github.com/Demopeu)
 - **BLOG:** [https://demopeu.vercel.app](https://demopeu.vercel.app/)
 
----
+<br/>
 
-<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Education</h2>
+<img src="./assets/education.svg" width="100%" alt="Education" />
 
 **삼성 청년 SW 아카데미 (SSAFY 11기)**
 
@@ -31,11 +33,15 @@
 - 자료 구조와 알고리즘, 웹 개발, 기업 연계형 실무 프로젝트 수행
 - SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득
 
+<br/>
+
 **신세계 spharos Academy**
 
 - **기간:** 2025.03 ~ 2025.07
 - 프로젝트 중심 커리큘럼 및 기업 연계형 실무 프로젝트 수행
 - 아키텍처 설계, 실시간 서비스 구현, 모노레포 도입 등 기술적 챌린지 주도
+
+<br/>
 
 **부산대학교**
 
@@ -43,14 +49,18 @@
 - 산업공학과 학사 졸업
 - 전공 학업인 데이터마이닝, 인공지능 응용, 데이터베이스, 컴퓨터 프로그래밍 등 학습
 
-<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Awards</h2>
+<br/>
+
+<img src="./assets/awards.svg" width="100%" alt="Awards" />
 
 - **신세계 spharos Academy 기업연계 프로젝트 우수상 (2등)** (2025.07.15)
   - Turborepo 기반 모노레포 및 환경 구축 성과 인정
 - **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상 (1등)** (2024.08.16)
   - 강화학습 기반 자율 주차 모델 및 시스템 통합 구현 성과 인정
 
-<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Licenses & Certifications</h2>
+<br/>
+
+<img src="./assets/licenses.svg" width="100%" alt="Licenses & Certifications" />
 
 - **정보처리기사** – 한국산업인력공단 (2025.12.24)
 - **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원 (2025.06.13)
@@ -105,7 +115,7 @@
 | --------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ |
 | **BackStage**         | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + Websocket + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend)        |
 | **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리)                  | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
-| **Tech Blog (FSD)** | 기술 블로그 (FSD 설계, Turborepo, Vercel Microfrontends) | [🔗 GitHub](https://github.com/Demopeu/blog) |
+| **Tech Blog (FSD)**   | 기술 블로그 (FSD 설계, Turborepo, Vercel Microfrontends)           | [🔗 GitHub](https://github.com/Demopeu/blog)                 |
 
 ---
 
@@ -169,17 +179,17 @@
 
 ## 🧷 내가 기여한 핵심 기능
 
-| 기능       | 설명                                                                                                                                              |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Root       | Turborepo 기반 모노레포 구축으로 앱 통합 관리.<br>공통 설정·UI 컴포넌트 모듈화.<br>캐시 및 파이프라인 최적화로 개발 생산성 향상.                                             |
-| User App   | FCM 및 TanStack Query를 연동한 실시간 알림 및 서버 상태 동기화. <br>Toss Payments SDK 연동 결제 시스템 구축. |
-| Busker App | WebSocket 기반 실시간 스트리밍.                                                                                                                   |
+| 기능       | 설명                                                                                                                             |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Root       | Turborepo 기반 모노레포 구축으로 앱 통합 관리.<br>공통 설정·UI 컴포넌트 모듈화.<br>캐시 및 파이프라인 최적화로 개발 생산성 향상. |
+| User App   | FCM 및 TanStack Query를 연동한 실시간 알림 및 서버 상태 동기화. <br>Toss Payments SDK 연동 결제 시스템 구축.                     |
+| Busker App | WebSocket 기반 실시간 스트리밍.                                                                                                  |
 
 ## 🔍 Troubleshooting Highlights
 
-| 이슈 영역 | 요약 |
-| :--- | :--- |
-| **다중 앱의 코드/설정 파편화** | 앱의 UI 및 설정 중복 발생 → **Turborepo 공통 패키지 모듈화**로 해결 |
+| 이슈 영역                       | 요약                                                                                      |
+| :------------------------------ | :---------------------------------------------------------------------------------------- |
+| **다중 앱의 코드/설정 파편화**  | 앱의 UI 및 설정 중복 발생 → **Turborepo 공통 패키지 모듈화**로 해결                       |
 | **1인 개발의 코드 품질 리스크** | 동료 부재로 인한 잠재적 버그 발생 → **DeepSource 정적 분석 & AI 도구** 도입으로 상시 방어 |
 | **라이브 스트리밍 재생 불안정** | 네트워크 환경에 따른 버퍼링 발생 → **HLS.js 기반 적응형 비트레이트(ABR)** 적용으로 안정화 |
 
@@ -193,7 +203,6 @@
 - **배포 자동화 및 서비스 기반 마련**
   - Husky와 Lint-staged를 활용한 **자동화된 커밋 검증 프로세스** 도입으로 휴먼 에러 차단
   - Next.js 최적화 및 Google Search Console 인덱싱을 통해 **실제 서비스 수준의 SEO 기반 마련**
-
 
 ## 🏆 프로젝트 전체 성과
 
@@ -699,16 +708,13 @@
     - 강화학습을 위한 시뮬레이션 환경 구축
 
 - **핵심 알고리즘 설계:**
-
   - Soft Actor-Critic (SAC) 알고리즘과 Hindsight Experience Replay (HER) 알고리즘 적용
   - 모델의 학습 효율성을 높이기 위한 최적화 작업
 
 - **실제 환경 조성:**
-
   - 실물 차량과 자율 주행 보드의 통합
 
 - **성과 / 학습:**
-
   - **성과:**
     - 강화학습 기반 자율 주차 모델의 성공적인 구현
     - 500만번 중 0번의 사고 발생
@@ -758,9 +764,7 @@
       - 프론트엔드와의 연동을 위한 API 인터페이스 설계.
 
 - **성과 / 학습:**
-
   - **성과:**
-
     - AI 기반 패션 추천 시스템을 성공적으로 구현하여 사용자 만족도 25% 향상.
     - AI LENS 기능 출시 후 사용자 참여도 30% 증가.
 
