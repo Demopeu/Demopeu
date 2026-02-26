@@ -1,57 +1,65 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=black&height=250&text=어우러지는%20코드를%20만드는%20개발자🥗&desc=오리엔탈%20샐러드처럼&fontColor=d6ace6&fontSize=40&fontAlign=50&fontAlignY=50&descSize=40&descAlign=30&descAlignY=30" alt="어우러지는 코드를 만드는 개발자" style="width: 100%;" />
+<table>
+  <tr>
+    <td width="220" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" width="220" style="border-radius: 10px;" alt="프로필 이미지" />
+    </td>
+    <td valign="top">
+      <h2 style="color: #1a73e8; margin-top: 0; border-bottom: 2px solid #1a73e8; padding-bottom: 5px;">Introduction</h2>
+      <strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
+      Next.js App Router 생태계와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트의 규모와 특성에 맞는 다양한 아키텍처 패턴을 도입하여 비즈니스 로직을 체계적으로 분리하고, 앱 간 공통 모듈 패키지화 및 빌드 파이프라인 최적화 경험이 있습니다.<br/><br/>
+      Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으로 끊김 없는 라이브 환경 구축, 고령층을 위한 PWA 도입 및 CLS 0.00 달성 등 타겟 사용자가 겪는 실제 불편함을 다양한 기술적 접근으로 해결하는 것에 몰입합니다. 복잡한 요구사항 속에서도 기획 의도에 맞는 결과물을 만들어내기 위해 끝까지 책임을 다합니다.
+    </td>
+  </tr>
+</table>
 
-# 👋 About Me
+<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Personal Information</h2>
 
-<img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" 
-     width="240" align="right" alt="Profile Image" />
+- **NAME:** 김동현(Demopeu)
+- **EMAIL:** dnanf12345@naver.com
+- **GITHUB:** [https://github.com/Demopeu](https://github.com/Demopeu)
+- **BLOG:** [https://demopeu.vercel.app](https://demopeu.vercel.app/)
 
-> React / Next.js 기반 사용자 경험 중심 개발자  
-> 실시간 서비스 · 디자인 시스템 · AI 시스템 연계 경험 보유
+---
 
-**Hello, World!** 신입 개발자 **김동현**입니다.
+<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Education</h2>
 
-**Next.js App Router 기반의 최신 개발 흐름에 익숙하며**,  
-**빌드 · 배포 파이프라인 구성과 개발 생산성 도구 세팅에도 강점**이 있습니다.
+**삼성 청년 SW 아카데미 (SSAFY 11기)**
 
-또한 머신러닝 모델의 **파인튜닝 및 서빙 경험**을 바탕으로,  
-**프론트엔드와 AI 시스템 간 연계를 고려한 개발**을 지향합니다.
+- **기간:** 2024.01 ~ 2024.12
+- 1년간 총 1,600시간의 몰입형 SW 교육 이수
+- 자료 구조와 알고리즘, 웹 개발, 기업 연계형 실무 프로젝트 수행
+- SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득
 
-팀원들과 소통하며, **팀원들과 자연스럽게 어우러지고**,  
-**디자인과 사용자 경험이 어우러지는 코드 및 결과물**을 만드는 것을 목표로 합니다.
+**신세계 spharos Academy**
 
-# 🎓 Education
+- **기간:** 2025.03 ~ 2025.07
+- 프로젝트 중심 커리큘럼 및 기업 연계형 실무 프로젝트 수행
+- 아키텍처 설계, 실시간 서비스 구현, 모노레포 도입 등 기술적 챌린지 주도
 
-- **부산대학교 산업공학과 학사**(2016.03~2024.02 ) : 컴퓨터프로그래밍, 데이터베이스, 데이터마이닝, 인공지능응용, 시뮬레이션 과목 수강
-- **삼성 청년 SW 아카데미 11기**(2024.01~2024.12 ) : 기초 프로그래밍, 자료 구조와 알고리즘, 웹 개발, SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득, 공통프로젝트 우수상 수상, 기업연계 프로젝트 등
-- **신세계 spharos Academy**(2025.03~2025.07) : 프로젝트 중심 커리큘럼, 기업 연계형 프로젝트, 우수상 수상 등
+**부산대학교**
 
-# 🏆 Awards
+- **기간:** 2016.03 ~ 2024.02
+- 산업공학과 학사 졸업
+- 전공 학업인 데이터마이닝, 인공지능 응용, 데이터베이스, 컴퓨터 프로그래밍 등 학습
 
-- **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상(1등)**
+<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Awards</h2>
 
-  - **수상 날짜:** 2024.08.16
-  - **내용:** 공통 프로젝트(트랙 :AIot) 공통 프로젝트 우수팀으로 선정
+- **신세계 spharos Academy 기업연계 프로젝트 우수상 (2등)** (2025.07.15)
+  - Turborepo 기반 모노레포 및 환경 구축 성과 인정
+- **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상 (1등)** (2024.08.16)
+  - 강화학습 기반 자율 주차 모델 및 시스템 통합 구현 성과 인정
 
-- **신세계 spharos Academy 기업연계 프로젝트 우수상(2등)**
-  - **수상 날짜:** 2025.07.15
-  - **내용:** 기업연계 프로젝트 우수팀으로 선정
+<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Licenses & Certifications</h2>
 
-# 📘 Licenses & Certifications
+- **정보처리기사** – 한국산업인력공단 (2025.12.24)
+- **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원 (2025.06.13)
+- **컴퓨터활용능력** – 대한상공회의소 (2019.08.16)
 
-- **정보처리기사** – 한국산업인력공단, 2025.12.24
-- **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원, 2025.06.13
-- **컴퓨터활용능력** – 대한상공회의소, 2019.08.16
+<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Skills</h2>
 
-# 🛠️ Skills
-
-## 🔧 Core Stack
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<h3 style="margin-bottom: 10px; color: #1a73e8;">Core Stack</h3>
+<p style="margin-top: 0;">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs" alt="Core Stack" />
 </p>
 
 ## 🚀 Specialties & Advanced Techniques
