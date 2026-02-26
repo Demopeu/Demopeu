@@ -1,18 +1,12 @@
-<table>
-  <tr>
-    <td width="220" valign="top">
-      <img src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" width="220" alt="프로필 이미지" />
-    </td>
-    <td valign="top">
-      <img src="./assets/intro.svg" width="100%" alt="Introduction" />
-      <br/><br/>
-      <strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
-      Next.js App Router 생태계와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트의 규모와 특성에 맞는 다양한 아키텍처 패턴을 도입하여 비즈니스 로직을 체계적으로 분리하고, 앱 간 공통 모듈 패키지화 및 빌드 파이프라인 최적화 경험이 있습니다.<br/><br/>
-      Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으로 끊김 없는 라이브 환경 구축, 고령층을 위한 PWA 도입 및 CLS 0.00 달성 등 타겟 사용자가 겪는 실제 불편함을 다양한 기술적 접근으로 해결하는 것에 몰입합니다. 복잡한 요구사항 속에서도 기획 의도에 맞는 결과물을 만들어내기 위해 끝까지 책임을 다합니다.
-    </td>
-  </tr>
-</table>
+<img align="left" width="220" hspace="20" src="https://github.com/user-attachments/assets/5d14f3cb-fea5-4064-b692-3c51dfe36155" alt="프로필 이미지" />
 
+<img src="./assets/intro.svg" width="600" alt="Introduction" />
+<br/>
+<strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
+Next.js App Router 생태계와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트의 규모와 특성에 맞는 다양한 아키텍처 패턴을 도입하여 비즈니스 로직을 체계적으로 분리하고, 앱 간 공통 모듈 패키지화 및 빌드 파이프라인 최적화 경험이 있습니다.<br/><br/>
+Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으로 끊김 없는 라이브 환경 구축, 고령층을 위한 PWA 도입 및 CLS 0.00 달성 등 타겟 사용자가 겪는 실제 불편함을 다양한 기술적 접근으로 해결하는 것에 몰입합니다. 복잡한 요구사항 속에서도 기획 의도에 맞는 결과물을 만들어내기 위해 끝까지 책임을 다합니다.
+
+<br clear="left"/>
 <br/>
 
 <img src="./assets/personal.svg" width="100%" alt="Personal Information" />
