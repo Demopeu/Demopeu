@@ -3,13 +3,15 @@
 <img src="./assets/intro.svg" width="600" alt="Introduction" />
 
 <strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
-Next.js App Router 생태계와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트의 규모와 특성에 맞는 다양한 아키텍처 패턴을 도입하여 비즈니스 로직을 체계적으로 분리하고, 앱 간 공통 모듈 패키지화 및 빌드 파이프라인 최적화 경험이 있습니다.<br/><br/>
-Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으로 끊김 없는 라이브 환경 구축, 고령층을 위한 PWA 도입 및 CLS 0.00 달성 등 타겟 사용자가 겪는 실제 불편함을 다양한 기술적 접근으로 해결하는 것에 몰입합니다. 복잡한 요구사항 속에서도 기획 의도에 맞는 결과물을 만들어내기 위해 끝까지 책임을 다합니다.
+React 생태계에서 Next.js(App Router 기반)와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트 규모와 특성에 맞는 아키텍처 패턴으로 비즈니스 로직을 체계적으로 분리하고, 공통 모듈을 패키지화하여 빌드 파이프라인을 효율적으로 관리합니다.<br/><br/>
+프론트엔드는 사용자와 가장 맞닿아 있는 레이어이기 때문에, 렌더링 방식부터 UI 인터랙션까지 사용자의 불편을 해소하는 것을 먼저 고민합니다. 사용자 경험 개선을 위해 성능 지표를 측정하고, 그에 맞는 기술을 선택합니다. 이러한 개선이 지속 가능하도록 체계적인 아키텍처 설계를 지향합니다. 요구사항 속에서도 기획 의도에 맞는 결과물을 끝까지 만들어내는 것을 중요하게 여깁니다.
 
 <br clear="left"/>
 <br/>
 
 <img src="./assets/personal.svg" width="100%" alt="Personal Information" />
+
+<br/>
 
 - **NAME:** 김동현(Demopeu)
 - **EMAIL:** dnanf12345@naver.com
@@ -20,20 +22,22 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 
 <img src="./assets/education.svg" width="100%" alt="Education" />
 
+<br/>
+
 **삼성 청년 SW 아카데미 (SSAFY 11기)**
 
 - **기간:** 2024.01 ~ 2024.12
+- SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득
 - 1년간 총 1,600시간의 몰입형 SW 교육 이수
 - 자료 구조와 알고리즘, 웹 개발, 기업 연계형 실무 프로젝트 수행
-- SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득
 
 <br/>
 
 **신세계 spharos Academy**
 
 - **기간:** 2025.03 ~ 2025.07
-- 프로젝트 중심 커리큘럼 및 기업 연계형 실무 프로젝트 수행
-- 아키텍처 설계, 실시간 서비스 구현, 모노레포 도입 등 기술적 챌린지 주도
+- 아키텍처 설계, 실시간 서비스 구현 등 기술 심화 중심 프로젝트 수행
+- Turborepo 기반 모노레포 아키텍처 설계 주도 및 기업 연계 프로젝트 우수상 수상
 
 <br/>
 
@@ -41,11 +45,13 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 
 - **기간:** 2016.03 ~ 2024.02
 - 산업공학과 학사 졸업
-- 전공 학업인 데이터마이닝, 인공지능 응용, 데이터베이스, 컴퓨터 프로그래밍 등 학습
+- 컴퓨터 프로그래밍, 데이터마이닝, 인공지능 응용, 데이터베이스 등 관련 과목 이수
 
 <br/>
 
 <img src="./assets/awards.svg" width="100%" alt="Awards" />
+
+<br/>
 
 - **신세계 spharos Academy 기업연계 프로젝트 우수상 (2등)** (2025.07.15)
   - Turborepo 기반 모노레포 및 환경 구축 성과 인정
@@ -56,64 +62,132 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 
 <img src="./assets/licenses.svg" width="100%" alt="Licenses & Certifications" />
 
+<br/>
+
 - **정보처리기사** – 한국산업인력공단 (2025.12.24)
 - **ADsP (데이터분석 준전문가)** – 한국데이터산업진흥원 (2025.06.13)
 - **컴퓨터활용능력** – 대한상공회의소 (2019.08.16)
 
-<h2 style="color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 30px;">Skills</h2>
+<br/>
 
-<h3 style="margin-bottom: 10px; color: #1a73e8;">Core Stack</h3>
-<p style="margin-top: 0;">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs" alt="Core Stack" />
-</p>
+<img src="./assets/skills.svg" width="100%" alt="Skills" />
 
-## 🚀 Specialties & Advanced Techniques
+<br/>
 
-| 기술                                                                                                                    | 경험 및 강점                                                        |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Next.js](https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white)     | App Router 기반 SSR/CSR 병행 구성, 서버 액션 및 캐싱 전략 실전 적용 |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | 유틸리티 기반 빠른 UI 구성 및 반응형/다크모드 구현에 익숙           |
-| ![Turborepo](https://img.shields.io/badge/Turborepo-5A29E4?style=for-the-badge&logo=turborepo&logoColor=white)          | 모노레포 구성 및 공통 모듈 최적화로 빌드 효율성 향상 경험           |
+<img src="./assets/core_stack.svg" width="100%" alt="Core Stack" />
+<br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs" alt="Core Stack Icons" />
 
-## 🤖 AI & Machine Learning
+<br/>
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gradio-00D1FF?style=for-the-badge&logo=gradio&logoColor=white"/>
-</p>
+<img src="./assets/specialties.svg" width="100%" alt="Specialties" />
 
-## ⚙️ Etc.
+- **React & Next.js:** v14~16 App Router 기반 렌더링 전략 및 캐싱 전략 설계, RSC 렌더링 파이프라인 트러블슈팅 경험, React Compiler 도입
+- **모노레포 & 아키텍처:** Turborepo 빌드 파이프라인 최적화, FSD 기반 Clean Architecture
+- **UI & Styling:** Tailwind CSS v4, Mobile-First 반응형 설계, PWA
 
-<p>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Husky-464647?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white"/>
-</p>
+<br/>
+
+<img src="./assets/tools_backend.svg" width="100%" alt="Tools & Backend" />
+
+**Backend & DB:** Django, Supabase, Python <br/>
+**DevTools:** Prettier, ESLint, Husky <br/>
+**AI Tools:** Windsurf, Cursor
+
+<br/>
+
+<img src="./assets/project.svg" width="100%" alt="Project" />
+
+<br/>
+
+<img src="./assets/project_manna.svg" width="100%" alt="[ 개인 프로젝트 ] 만나교회 서비스 플랫폼" />
+
+<br/>
+
+> **일정:** 2025.01.05 ~ 2025.02.13<br/>
+>
+> **기술 스택:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Turborepo, Supabase, Serwist, Vercel<br/>
+>
+> **참여 인원:** 1인 (기획 · 설계 · 개발 · 배포 전담)<br/>
+>
+> **서비스:** 디지털 소외 계층인 고령의 성도들이 **쉽고 빠르게** 교회 소식에 접근할 수 있게 하고, 기술을 모르는 목사님이 **복잡함 없이** 운영할 수 있도록 구성된 모노레포 기반 풀스택 웹 서비스
+
+<br/>
+
+- 모노레포 빌드 최적화 및 내부 패키지 사전 빌드 전략 도입으로 **Turborepo 캐시 히트율 향상** 및 빌드 병목 해소
+- 모노레포 환경 CSS Cascade 결함 파악 및 패키지 간 import 순서 조정으로 Tailwind 반응형 유틸리티 정상화
+- 프로덕션 전용 Hydration Mismatch(#418) 원인 분석 및 client boundary 분리로 RSC 캐싱 범위 제어
+- pdfjs-dist Dynamic Import 전환으로 SSR DOMMatrix 에러 해소 및 초기 번들 경량화
+
+- CQRS 접목 Clean FSD 아키텍처 설계 (Entities: Query / Features: Command)
+- Server Actions + Zod + requireAuth 파이프라인으로 CMS 인증 및 유효성 검증 설계
+- PWA 도입으로 오프라인 폴백 및 홈 화면 추가 구현
+- Vercel 배포 및 Sentry 에러 추적 연동, Husky + commitlint 코드 품질 자동화
+- Rule 기반 AI 개발 환경 구축 및 Living Spec으로 아키텍처 일관성 유지
+
+<br/>
 
 ---
 
-# 📌 대표 프로젝트
+<br/>
 
-| 이름                  | 설명                                                               | 링크                                                         |
-| --------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ |
-| **BackStage**         | 실시간 소통 기반 팬 플랫폼 (프론트 1인, Next.js + Websocket + FCM) | [🔗 GitHub](https://github.com/Demopeu/vybz-frontend)        |
-| **Starbucks Renewal** | 쇼핑몰 리뉴얼 (단독 프론트, SSR + CSR, 상태 관리)                  | [🔗 GitHub](https://github.com/Demopeu/FE-Starbucks-Renewal) |
-| **Tech Blog (FSD)**   | 기술 블로그 (FSD 설계, Turborepo, Vercel Microfrontends)           | [🔗 GitHub](https://github.com/Demopeu/blog)                 |
+<img src="./assets/project_vybz.svg" width="100%" alt="[ 신세계 spharos Academy 기업연계 ] 실시간 소통 기반 팬 플랫폼 SNS (VYBZ)" />
+
+<br/>
+
+> **일정:** 2025.05.02 ~ 2025.07.15<br/>
+>
+> **기술 스택:** Next.js 15, React 19, TypeScript, Tailwind CSS, Turborepo, TanStack Query, WebRTC, HLS.js, STOMP, SSE, FCM, Toss Payments, AWS S3, Vercel<br/>
+>
+> **참여 인원:** 4인 (프론트엔드 1인 전담, 백엔드 3인)<br/>
+>
+> **서비스:** 버스커와 팬이 실시간으로 소통하는 공연 홍보 · 라이브 스트리밍 · 결제 기반 팬 플랫폼
+
+- WebRTC + MediaRecorder 200ms 청크 실시간 송출과 HLS.js 적응형 비트레이트 시청을 역할별로 분리 설계, 송출·시청 환경 각각 최적화
+- Next.js Parallel Routes로 채팅 목록·채팅방 독립 렌더링, Context로 슬롯 간 상태 동기화
+- SSE 실시간 수신 + localStorage 채팅 영속성 전략으로 페이지 이탈 후 재진입 시 대화 복원
+
+- 프론트엔드 1인으로 전체 아키텍처 설계 및 개발 전담
+- Turborepo + pnpm 모노레포 구성 및 공통 패키지 4개 모듈화
+- Toss Payments SDK 결제 시스템 및 NextAuth.js OAuth(Google, Kakao) 인증 구현
+- Firebase FCM 푸시 알림 및 PWA 구현, AWS S3 이미지 업로드 시스템 구축
+- Husky 커스텀 스크립트로 커밋·푸시 전 린트·빌드 자동 검증, Google Search Console SEO 인덱싱 확인
+
+<br/>
 
 ---
 
-# 📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)
+<br/>
+
+<img src="./assets/project_starbucks.svg" width="100%" alt="[ 신세계 spharos Academy ] 스타벅스 쇼핑 서비스 리뉴얼" />
+
+<br/>
+
+> **일정:** 2025.03.10 ~ 2025.04.28<br/>
+>
+> **기술 스택:** Next.js 15, React 19, TypeScript, Tailwind CSS v4, Zustand, Zod, NextAuth.js, Shadcn/UI<br/>
+>
+> **참여 인원:** 5인 (프론트엔드 1인, 백엔드 3인, DevOps 1인)<br/>
+>
+> **서비스:** 스타벅스 쇼핑 서비스를 Next.js 15 기반으로 리빌딩하며 성능 및 사용자 경험 개선
+
+- useOptimistic + useDebouncedFetch 조합으로 장바구니 즉각 반영 및 서버 요청 디바운싱 처리, 요청 실패 시 로컬 상태 롤백
+- useCallback + React.memo 적용으로 불필요한 리렌더링 제거, LCP 3.2초 → 1.7초(약 47%) 개선
+- revalidateTag 기반 세밀한 캐시 전략 설계, 데이터 변경 시 관련 태그만 무효화하여 불필요한 API 호출 최소화
+
+- 프론트엔드 1인으로 메인·상품 상세·장바구니 페이지 전담 개발
+- useFunnel 커스텀 훅으로 단계별 회원가입 플로우 상태 관리 구조화
+- Zustand 도입으로 Optimistic UI 적용 시 컴포넌트 간 글로벌 상태 동기화
+- NextAuth.js OAuth 인증 및 Zod 기반 유효성 검증 적용
+
+<br/>
+
+---
+
+<br/>
+
+<details>
+  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 프로젝트: 팬과 버스커가 함께 만드는 무대, 실시간 소통 기반 팬 플랫폼 SNS (BackStage)</strong></summary>
 
 <table align="center">
   <tr>
@@ -212,7 +286,12 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 - 하지만 서비스가 확장될수록 **CI/CD 파이프라인 통합**, **공통 환경변수 관리**, **배포 간 연동 테스트 자동화** 등에서 많은 시행착오를 겪음
 - 단일 서비스 구조보다 **MSA+모노레포 조합은 운영 복잡도가 훨씬 높다는 점**을 직접 체감함
 
+</details>
+
 ---
+
+<details>
+  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)</strong></summary>
 
 # 📌 프로젝트: 스타벅스 쇼핑 서비스 리뉴얼 (Team 114)
 
@@ -321,7 +400,12 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 - SEO 최적화와 사용자 경험을 동시에 고려하며 **SSR/CSR 병행 방식에 대한 이해를 깊게 다질 수 있었음**
 - 백엔드 4인과의 협업을 통해 **API 응답 형식, 에러 핸들링, 예외 상황 처리 방식 등을 실시간으로 조율**하며 프론트 주도적으로 방향 설정
 
+</details>
+
 ---
+
+<details>
+  <summary style="font-size: 1.2em; margin-bottom: 10px;"><strong>📌 프로젝트: FSD 아키텍처 기반 기술 블로그</strong></summary>
 
 # 📌 프로젝트: FSD 아키텍처 기반 기술 블로그
 
@@ -428,6 +512,8 @@ Optimistic UI를 통한 즉각적인 피드백 제공, 적응형 스트리밍으
 - Vercel Microfrontends 문제 해결 과정에서 **서버 레벨이 아닌 클라이언트 레벨에서의 해결책**을 찾는 것이 핵심임을 깨달음
 - **ADR과 에러 문서 작성 습관**을 들이며 기술적 의사결정 과정을 체계적으로 기록하는 방법 학습
 - 새로운 기술을 시험하고 문제를 해결하는 과정 자체가 **가장 큰 학습**이었음을 체감
+
+</details>
 
 # 💻 Frontend & Architecture Projects
 
