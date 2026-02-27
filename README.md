@@ -1,6 +1,6 @@
 <img align="left" width="220" style="margin-right: 30px; margin-bottom: 20px;" alt="프로필 이미지" src="https://github.com/user-attachments/assets/40ffdf46-75fd-402e-9c79-9926b5b34dc1" />
 
-<img src="./assets/intro.svg" width="400" alt="Introduction" style="margin-bottom: 15px;" /><br/>
+<img src="./assets/intro.svg" width="460" style="margin-bottom: 15px;" alt="Introduction" /><br/>
 
 <strong>구조적 설계와 사용자 경험 최적화를 고민하는 프론트엔드 개발자</strong><br/><br/>
 React 생태계에서 Next.js(App Router 기반)와 Turborepo 기반의 모노레포 아키텍처 구축에 강점을 가진 프론트엔드 개발자입니다. 프로젝트 규모와 특성에 맞는 아키텍처 패턴으로 비즈니스 로직을 체계적으로 분리하고, 공통 모듈을 패키지화하여 빌드 파이프라인을 효율적으로 관리합니다.<br/><br/>
