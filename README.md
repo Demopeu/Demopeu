@@ -26,7 +26,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 <img src="./assets/edu_ssafy.svg" width="100%" alt="SSAFY" />
 
-- **기간:** 2024.01 ~ 2024.12
+- **기간:** 2024.01.02 ~ 2024.12.31
 - SAMSUNG ELECTRONICS SW 역량 테스트 A+ 취득
 - 1년간 총 1,600시간의 몰입형 SW 교육 이수
 - 자료 구조와 알고리즘, 웹 개발, 기업 연계형 실무 프로젝트 수행
@@ -35,7 +35,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 <img src="./assets/edu_spharos.svg" width="100%" alt="spharos Academy" />
 
-- **기간:** 2025.03 ~ 2025.07
+- **기간:** 2025.03.05 ~ 2025.07.22
 - 아키텍처 설계, 실시간 서비스 구현 등 기술 심화 중심 프로젝트 수행
 - Turborepo 기반 모노레포 아키텍처 설계 주도 및 기업 연계 프로젝트 우수상 수상
 
