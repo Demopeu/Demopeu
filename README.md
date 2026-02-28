@@ -83,7 +83,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 **React & Next.js:** v14~16 App Router 기반 렌더링 전략 및 캐싱 전략 설계, RSC 렌더링 파이프라인 트러블슈팅 경험, Rerendering 최적화 및 React Compiler 도입 <br/>
 **모노레포 & 아키텍처:** Turborepo 빌드 파이프라인 최적화, FSD 기반 Clean Architecture <br/>
-**UI & Styling:** Tailwind CSS v4, Mobile-First 반응형 설계, PWA
+**UI & Styling:** Tailwind CSS v4, Mobile-First 반응형 설계
 
 <br/>
 
