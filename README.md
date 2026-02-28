@@ -1,4 +1,4 @@
-<img align="left" width="280" style="margin-right: 30px; margin-bottom: 20px;" alt="프로필 이미지" src="https://github.com/user-attachments/assets/40ffdf46-75fd-402e-9c79-9926b5b34dc1" />
+<img align="left" width="250" style="margin-right: 30px; margin-bottom: 20px;" alt="프로필 이미지" src="https://github.com/user-attachments/assets/40ffdf46-75fd-402e-9c79-9926b5b34dc1" />
 
 <img src="./assets/intro.svg" width="460" style="margin-bottom: 15px;" alt="Introduction" /><br/>
 
