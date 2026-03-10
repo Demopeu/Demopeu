@@ -103,7 +103,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 <br/>
 
-#### **일정:** 2025.01.05 ~ 2025.02.13
+#### **일정:** 2026.01.05 ~ 2026.02.13
 
 #### **기술 스택:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Turborepo, Supabase, Serwist, Vercel
 
@@ -215,7 +215,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 > 디지털 소외 계층인 고령 성도들이 쉽고 빠르게 교회 소식에 접근할 수 있게 하고,  
 > 기술을 모르는 목사님이 복잡함 없이 운영할 수 있는 시스템.
 
-- **기간**: 2025.01.05 ~ 2025.02.13
+- **기간**: 2026.01.05 ~ 2026.02.13
 - **역할**: 기획 · 설계 · 개발 · 배포 전담 (1인)
 - **프로덕션 URL (Web)**: https://www.mannachurch.or.kr
 - **프로덕션 URL (Admin)**: https://manna-church-service.vercel.app
