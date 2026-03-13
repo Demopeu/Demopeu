@@ -52,7 +52,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 <br/>
 
-- **신세계 spharos Academy 기업연계 프로젝트 우수상 (2등)** (2025.07.15)
+- **신세계 spharos Academy 기업연계 프로젝트 최우수상** (2025.07.15)
   - Turborepo 기반 모노레포 및 환경 구축 성과 인정
 - **삼성 청년 SW 아카데미 공통프로젝트 부울경 우수상 (1등)** (2024.08.16)
   - 강화학습 기반 자율 주차 모델 및 시스템 통합 구현 성과 인정
