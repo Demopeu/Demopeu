@@ -217,6 +217,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router 기반)와 <strong>Tur
 
 - **기간**: 2026.01.05 ~ 2026.02.13
 - **역할**: 기획 · 설계 · 개발 · 배포 전담 (1인)
+- **GitHub**: [프로젝트 GitHub](https://github.com/Demopeu/manna-church-service)
 - **프로덕션 URL (Web)**: https://www.mannachurch.or.kr
 - **프로덕션 URL (Admin)**: https://manna-church-service.vercel.app
 
