@@ -91,8 +91,8 @@ React 생태계에서 <strong>Next.js</strong>(App Router)와 <strong>Turborepo<
 <img src="./assets/tools_backend.svg" width="100%" alt="Tools & Backend" />
 
 **Backend & DB:** Django, Supabase, Python <br/>
-**DevTools:** Prettier, ESLint, Husky <br/>
-**AI Tools:** Windsurf, Cursor
+**DevTools:** Prettier, ESLint, Husky, Vitest, RTL, Playwright <br/>
+**AI Tools:** Cursor, Codex, Windsurf
 
 <br/>
 
@@ -106,7 +106,7 @@ React 생태계에서 <strong>Next.js</strong>(App Router)와 <strong>Turborepo<
 
 #### **일정:** 2026.01.05 ~ 2026.02.13
 
-#### **기술 스택:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Turborepo, Supabase, Serwist, Vercel
+#### **기술 스택:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Turborepo, Supabase, Serwist, Vitest, Playwright, Vercel
 
 #### **참여 인원:** 1인 (기획 · 설계 · 개발 · 배포 전담)
 
@@ -295,6 +295,32 @@ React 생태계에서 <strong>Next.js</strong>(App Router)와 <strong>Turborepo<
 - SSR 환경 `DOMMatrix` 에러 완전 해소
 - 수 MB에 달하는 PDF 파싱 라이브러리가 **초기 번들(Initial Bundle)에서 제외**되어 관리자 페이지 초기 로딩 속도(TTV) 개선
 - PDF 업로드 요청 시에만 라이브러리가 로드되어 불필요한 리소스 낭비 제거
+
+---
+
+## 4. 테스트 파이프라인 구축 (Vitest + Playwright)
+
+### 배경
+
+FSD 아키텍처 고도화 및 어드민 기능 확장으로, 컴포넌트 단위 검증과 전체 사용자 시나리오 검증을 모두 커버할 수 있는 체계적인 테스트 환경이 필요해짐.
+
+### 결정
+
+- **Vitest + React Testing Library:** FSD `entities`, `features` 계층의 UI 컴포넌트·커스텀 훅·비즈니스 로직 단위 테스트. 빠른 피드백 루프(TDD) 구성
+- **Playwright E2E:** 인증, Supabase DB 통신이 포함된 CRUD 전체 시나리오를 실제 브라우저 환경에서 검증
+
+<br/>
+
+### 주요 설계
+
+- **Storage State 패턴** 도입: 최초 1회 로그인 세션을 `playwright/.auth/user.json`에 스냅샷으로 저장, 이후 모든 E2E 스펙이 세션을 재사용하여 로그인 중복 제거
+- **DB 무결성 보장:** 순수 `supabase-js` 어드민 클라이언트로 테스트 전후 더미 데이터(`[E2E_TEST]`) 강제 삭제(Teardown)
+- **GitHub Actions CI 연동:** Push/PR 시 자동 검증, GitHub Secrets로 민감 정보 주입
+
+### 결과
+
+- PR 시점에 단위 테스트(Vitest) → E2E(Playwright) 2중 검증으로 배포 안정성 확보
+- 세션 재사용 및 Vitest 분담으로 전체 CI 실행 시간 단축
 
 ---
 
